@@ -1,0 +1,3649 @@
+@prefix : <http://snomed.info/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://snomed.info/sct/900000000000207008> a owl:Ontology ;
+	owl:versionIRI <http://snomed.info/sct/900000000000207008/version/20200201> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+
+skos:altLabel a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+
+skos:definition a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+
+skos:prefLabel a owl:AnnotationProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://snomed.info/id/116686009
+
+:116686009 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Has specimen (attribute)"@en ;
+	skos:prefLabel "Has specimen"@en .
+# 
+# http://snomed.info/id/260686004
+
+:260686004 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Method (attribute)"@en ;
+	skos:prefLabel "Method"@en .
+# 
+# http://snomed.info/id/363701004
+
+:363701004 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Direct substance (attribute)"@en ;
+	skos:prefLabel "Direct substance"@en .
+# 
+# http://snomed.info/id/363704007
+
+:363704007 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Procedure site (attribute)"@en ;
+	skos:prefLabel "Procedure site"@en .
+# 
+# http://snomed.info/id/363713009
+
+:363713009 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Has interpretation (attribute)"@en ;
+	skos:prefLabel "Has interpretation"@en .
+# 
+# http://snomed.info/id/363714003
+
+:363714003 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Interprets (attribute)"@en ;
+	skos:prefLabel "Interprets"@en .
+# 
+# http://snomed.info/id/370130000
+
+:370130000 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Property (attribute)"@en ;
+	skos:definition "This attribute is used to specify the type of inherent quality, function, disposition or process characteristic that is being observed or measured. Its values are abstract types of quality (length, odor, concentration) or abstract types of process characteristic (rate, speed, duration), and do not include qualities that are located (length of arm, odor of urine), or given a value (elevated concentration)."@en ;
+	skos:prefLabel "Property"@en .
+# 
+# http://snomed.info/id/370132008
+
+:370132008 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Scale type (attribute)"@en ;
+	skos:definition "This attribute refers to the scale of the result of an observation or a diagnostic test."@en ;
+	skos:prefLabel "Scale type"@en .
+# 
+# http://snomed.info/id/370133003
+
+:370133003 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Specimen substance (attribute)"@en ;
+	skos:prefLabel "Specimen substance"@en .
+# 
+# http://snomed.info/id/405813007
+
+:405813007 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :363704007 ;
+	rdfs:label "Procedure site - Direct (attribute)"@en ;
+	skos:prefLabel "Procedure site - Direct"@en .
+# 
+# http://snomed.info/id/408729009
+
+:408729009 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Finding context (attribute)"@en ;
+	skos:prefLabel "Finding context"@en .
+# 
+# http://snomed.info/id/408731000
+
+:408731000 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Temporal context (attribute)"@en ;
+	skos:prefLabel "Temporal context"@en .
+# 
+# http://snomed.info/id/408732007
+
+:408732007 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Subject relationship context (attribute)"@en ;
+	skos:prefLabel "Subject relationship context"@en .
+# 
+# http://snomed.info/id/410675002
+
+:410675002 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Route of administration (attribute)"@en ;
+	skos:altLabel "Route of administration - attribute"@en ;
+	skos:prefLabel "Route of administration"@en .
+# 
+# http://snomed.info/id/418775008
+
+:418775008 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Finding method (attribute)"@en ;
+	skos:prefLabel "Finding method"@en .
+# 
+# http://snomed.info/id/424361007
+
+:424361007 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Using substance (attribute)"@en ;
+	skos:prefLabel "Using substance"@en .
+# 
+# http://snomed.info/id/609096000
+
+:609096000 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Role group (attribute)"@en ;
+	skos:prefLabel "Role group"@en .
+# 
+# http://snomed.info/id/704319004
+
+:704319004 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Inheres in (attribute)"@en ;
+	skos:definition "This attribute specifies the independent continuant which bears the quality, and on which the dependent quality (of this observable) depends."@en ;
+	skos:prefLabel "Inheres in"@en .
+# 
+# http://snomed.info/id/704321009
+
+:704321009 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Characterizes (attribute)"@en ;
+	skos:definition "This attribute specifies the process which the property describes, and on which the property (of this observable) depends. The process can be very general."@en ;
+	skos:prefLabel "Characterizes"@en .
+# 
+# http://snomed.info/id/704324001
+
+:704324001 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Process output (attribute)"@en ;
+	skos:definition "This attribute specifies the substance or body structure produced by the process characterised by the observable property type."@en-gb , "This attribute specifies the substance or body structure produced by the process characterized by the observable property type."@en-us ;
+	skos:prefLabel "Process output"@en .
+# 
+# http://snomed.info/id/704327008
+
+:704327008 a owl:ObjectProperty ;
+	rdfs:subPropertyOf :762705008 ;
+	rdfs:label "Direct site (attribute)"@en ;
+	skos:definition "This attribute represents the specific entity on which the observation is directly made, and is used when the observation is indirect, such as when a direct observation is not possible to be done on the entity in which the observable inheres."@en ;
+	skos:prefLabel "Direct site"@en .
+# 
+# http://snomed.info/id/762705008
+
+:762705008 a owl:ObjectProperty ;
+	rdfs:label "Concept model object attribute (attribute)"@en ;
+	skos:prefLabel "Concept model object attribute"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/ImageObject
+
+<http://schema.org/ImageObject> a owl:Class .
+# 
+###  http://snomed.info/id/129438006
+<http://snomed.info/id/129438006> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/129271007> ;
+                                  rdfs:label "Prescription - action (qualifier value)"@en ;
+                                  skos:prefLabel "Prescription - action"@en .
+
+
+###  http://snomed.info/id/16076005
+<http://snomed.info/id/16076005> rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/119270007>
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                              owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                   owl:someValuesFrom <http://snomed.info/id/129438006>
+                                                                                                 ]
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:label "Prescription (procedure)"@en ;
+                                 skos:altLabel "Prescription of"@en ;
+                                 skos:definition "A legal order to dispense and possibly prepare a substance or physical object"@en ;
+                                 skos:prefLabel "Prescription"@en .
+
+
+###  http://snomed.info/id/33633005
+<http://snomed.info/id/33633005> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://snomed.info/id/16076005> ;
+                                 rdfs:label "Prescription of drug (procedure)"@en ;
+                                 skos:altLabel "Medication prescribing"@en ,
+                                               "Medication prescription"@en ,
+                                               "Medication prescription treatments and procedures"@en ;
+                                 skos:prefLabel "Prescription of drug"@en .
+# http://snomed.info/id/105421008
+
+:105421008 a owl:Class ;
+	rdfs:subClassOf :224285004 ;
+	rdfs:label "Educational achievement (observable entity)"@en ;
+	skos:altLabel "Academic achievement"@en , "Educational qualification"@en , "Level of educational attainment"@en ;
+	skos:prefLabel "Educational achievement"@en .
+# 
+# http://snomed.info/id/105590001
+
+:105590001 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Substance (substance)"@en ;
+	skos:altLabel "Substances"@en ;
+	skos:prefLabel "Substance"@en .
+# 
+# http://snomed.info/id/105719004
+
+:105719004 a owl:Class ;
+	rdfs:subClassOf _:genid1 .
+
+_:genid1 owl:intersectionOf _:genid3 .
+
+_:genid3 a rdf:List ;
+	rdf:first :365860008 ;
+	rdf:rest _:genid2 .
+
+_:genid2 a rdf:List ;
+	rdf:first :82832008 ;
+	rdf:rest rdf:nil .
+
+_:genid1 a owl:Class .
+
+:105719004 rdfs:label "Body disability AND/OR failure state (finding)"@en ;
+	skos:prefLabel "Body disability AND/OR failure state"@en .
+# 
+# http://snomed.info/id/106229004
+
+:106229004 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Qualifier for type of diagnosis (qualifier value)"@en ;
+	skos:prefLabel "Qualifier for type of diagnosis"@en .
+# 
+# http://snomed.info/id/106230009
+
+:106230009 a owl:Class ;
+	rdfs:subClassOf :255544004 ;
+	rdfs:label "Qualifier for certainty of diagnosis (qualifier value)"@en ;
+	skos:prefLabel "Qualifier for certainty of diagnosis"@en .
+# 
+# http://snomed.info/id/106239005
+
+:106239005 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Modifier mainly for procedure (qualifier value)"@en ;
+	skos:prefLabel "Modifier mainly for procedure"@en .
+# 
+# http://snomed.info/id/107733003
+
+:107733003 a owl:Class ;
+	owl:equivalentClass _:genid4 .
+
+_:genid4 owl:intersectionOf _:genid8 .
+
+_:genid8 a rdf:List ;
+	rdf:first :71388002 ;
+	rdf:rest _:genid5 .
+
+_:genid5 a rdf:List ;
+	rdf:first _:genid6 .
+
+_:genid6 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid7 .
+
+_:genid7 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129325002 .
+
+_:genid5 rdf:rest rdf:nil .
+
+_:genid4 a owl:Class .
+
+:107733003 rdfs:label "Introduction procedure (procedure)"@en ;
+	skos:definition "The act of putting or inserting an object AND/OR substance into or onto the body."@en ;
+	skos:prefLabel "Introduction procedure"@en .
+# 
+# http://snomed.info/id/108252007
+
+:108252007 a owl:Class ;
+	rdfs:subClassOf :71388002 ;
+	rdfs:label "Laboratory procedure (procedure)"@en ;
+	skos:altLabel "Laboratory procedures"@en ;
+	skos:prefLabel "Laboratory procedure"@en .
+# 
+# http://snomed.info/id/113157001
+
+:113157001 a owl:Class ;
+	rdfs:subClassOf :38312007 ;
+	rdfs:label "Grandmother (person)"@en ;
+	skos:altLabel "Grand-mother"@en ;
+	skos:prefLabel "Grandmother"@en .
+# 
+# http://snomed.info/id/113257007
+
+:113257007 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of cardiovascular system (body structure)"@en ;
+	skos:altLabel "Cardiovascular structure"@en , "Cardiovascular system"@en , "Circulatory system"@en ;
+	skos:prefLabel "Structure of cardiovascular system"@en .
+# 
+# http://snomed.info/id/113343008
+
+:113343008 a owl:Class ;
+	rdfs:subClassOf :91723000 ;
+	rdfs:label "Body organ structure (body structure)"@en ;
+	skos:altLabel "Body organ"@en ;
+	skos:definition "An anatomical structure that consists of the maximal set of organ parts so connected to one another that together they constitute a self-contained unit of macroscopic anatomy, distinct both morphologically and functionally from other such units. Together with other organs, an organ constitutes an organ system or a body part. An organ is divisible into organ parts but not organs (examples: femur, biceps, liver, heart, aorta, sciatic nerve, ovary)."@en ;
+	skos:prefLabel "Body organ structure"@en .
+# 
+ 
+# http://snomed.info/id/11527006
+
+:11527006 a owl:Class ;
+	rdfs:subClassOf :113257007 ;
+	rdfs:label "Arterial system structure (body structure)"@en ;
+	skos:altLabel "All arteries"@en , "Arterial system"@en ;
+	skos:prefLabel "Arterial system structure"@en .
+# 
+# http://snomed.info/id/116154003
+
+:116154003 a owl:Class ;
+	rdfs:subClassOf :303118004 ;
+	rdfs:label "Patient (person)"@en ;
+	skos:prefLabel "Patient"@en .
+# 
+# http://snomed.info/id/118222006
+
+:118222006 a owl:Class ;
+	rdfs:subClassOf :250171008 ;
+	rdfs:label "General finding of observation of patient (finding)"@en ;
+	skos:altLabel "General condition of patient"@en , "General observation of patient"@en ;
+	skos:prefLabel "General finding of observation of patient"@en .
+# 
+ 
+# http://snomed.info/id/118520002
+
+:118520002 a owl:Class ;
+	rdfs:subClassOf :118597006 ;
+	rdfs:label "Number rate (property) (qualifier value)"@en ;
+	skos:altLabel "NRAT"@en , "Number rate (property)"@en ;
+	skos:prefLabel "Number rate"@en .
+# 
+# http://snomed.info/id/118597006
+
+:118597006 a owl:Class ;
+	rdfs:subClassOf :118598001 ;
+	rdfs:label "Quantity rate (property) (qualifier value)"@en ;
+	skos:altLabel "Quantity rate (property)"@en ;
+	skos:prefLabel "Quantity rate"@en .
+# 
+# http://snomed.info/id/118598001
+
+:118598001 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Property of measurement (qualifier value)"@en ;
+	skos:altLabel "Property of measurement"@en ;
+	skos:prefLabel "Measurement property"@en .
+# 
+# http://snomed.info/id/119270007
+
+:119270007 a owl:Class ;
+	owl:equivalentClass _:genid19 .
+
+_:genid19 owl:intersectionOf _:genid23 .
+
+_:genid23 a rdf:List ;
+	rdf:first :71388002 ;
+	rdf:rest _:genid20 .
+
+_:genid20 a rdf:List ;
+	rdf:first _:genid21 .
+
+_:genid21 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid22 .
+
+_:genid22 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129271007 .
+
+_:genid20 rdf:rest rdf:nil .
+
+_:genid19 a owl:Class .
+
+:119270007 rdfs:label "Management procedure (procedure)"@en ;
+	skos:definition "A plan or recommendation for services, based on an evaluation"@en ;
+	skos:prefLabel "Management procedure"@en .
+
+# 
+# http://snomed.info/id/120573002
+
+:120573002 a owl:Class ;
+	rdfs:subClassOf :66019005 ;
+	rdfs:label "Extremity part (body structure)"@en ;
+	skos:prefLabel "Extremity part"@en .
+# 
+# http://snomed.info/id/120574008
+
+:120574008 a owl:Class ;
+	rdfs:subClassOf _:genid29 .
+
+_:genid29 owl:intersectionOf _:genid32 .
+
+_:genid32 a rdf:List ;
+	rdf:first :120573002 ;
+	rdf:rest _:genid31 .
+
+_:genid31 a rdf:List ;
+	rdf:first :53120007 ;
+	rdf:rest _:genid30 .
+
+_:genid30 a rdf:List ;
+	rdf:first :70104002 ;
+	rdf:rest rdf:nil .
+
+_:genid29 a owl:Class .
+
+:120574008 rdfs:label "Upper extremity part (body structure)"@en ;
+	skos:prefLabel "Upper extremity part"@en .
+# 
+# http://snomed.info/id/122489005
+
+:122489005 a owl:Class ;
+	rdfs:subClassOf :21514008 ;
+	rdfs:label "Urinary system structure (body structure)"@en ;
+	skos:altLabel "Urinary system"@en ;
+	skos:definition "Organs of urine formation and secretion"@en ;
+	skos:prefLabel "Urinary system structure"@en .
+# 
+# http://snomed.info/id/12271241000119109
+
+:12271241000119109 a owl:Class ;
+	rdfs:subClassOf _:genid33 .
+
+_:genid33 owl:intersectionOf _:genid37 .
+
+_:genid37 a rdf:List ;
+	rdf:first :404684003 ;
+	rdf:rest _:genid34 .
+
+_:genid34 a rdf:List ;
+	rdf:first _:genid35 .
+
+_:genid35 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid36 .
+
+_:genid36 a owl:Restriction ;
+	owl:onProperty :363714003 ;
+	owl:someValuesFrom :263495000 .
+
+_:genid34 rdf:rest rdf:nil .
+
+_:genid33 a owl:Class .
+
+:12271241000119109 rdfs:label "Transgender identity (finding)"@en ;
+	skos:altLabel "Transgender"@en ;
+	skos:prefLabel "Transgender identity"@en .
+# 
+# http://snomed.info/id/123037004
+
+:123037004 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Body structure (body structure)"@en ;
+	skos:altLabel "Body structures"@en ;
+	skos:prefLabel "Body structure"@en .
+# 
+# http://snomed.info/id/123038009
+
+:123038009 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Specimen (specimen)"@en ;
+	skos:definition "Material (structure, substance, device) removed from a source (patient, donor, physical location, product)"@en ;
+	skos:prefLabel "Specimen"@en .
+# 
+# http://snomed.info/id/125676002
+
+:125676002 a owl:Class ;
+	rdfs:subClassOf :48176007 ;
+	rdfs:label "Person (person)"@en ;
+	skos:prefLabel "Person"@en .
+# 
+# http://snomed.info/id/125677006
+
+:125677006 a owl:Class ;
+	rdfs:subClassOf :303071001 ;
+	rdfs:label "Relative (person)"@en ;
+	skos:prefLabel "Relative"@en .
+# 
+# http://snomed.info/id/125678001
+
+:125678001 a owl:Class ;
+	rdfs:subClassOf :125679009 ;
+	rdfs:label "First degree blood relative (person)"@en ;
+	skos:altLabel "First degree biological relative"@en ;
+	skos:prefLabel "First degree blood relative"@en .
+# 
+# http://snomed.info/id/125679009
+
+:125679009 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Blood relative (person)"@en ;
+	skos:altLabel "Biological relative"@en ;
+	skos:prefLabel "Blood relative"@en .
+# 
+ 
+# http://snomed.info/id/128262006
+
+:128262006 a owl:Class ;
+	rdfs:subClassOf :38866009 ;
+	rdfs:label "Upper body structure (body structure)"@en ;
+	skos:altLabel "Upper body"@en ;
+	skos:prefLabel "Upper body structure"@en .
+# 
+# http://snomed.info/id/128263001
+
+:128263001 a owl:Class ;
+	rdfs:subClassOf :38866009 ;
+	rdfs:label "Lower body structure (body structure)"@en ;
+	skos:altLabel "Lower body"@en ;
+	skos:prefLabel "Lower body structure"@en .
+# 
+# http://snomed.info/id/129264002
+
+:129264002 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Action (qualifier value)"@en ;
+	skos:altLabel "Clinical action"@en , "Clinical actions"@en ;
+	skos:prefLabel "Action"@en .
+# 
+# http://snomed.info/id/129265001
+
+:129265001 a owl:Class ;
+	rdfs:subClassOf :129264002 ;
+	rdfs:label "Evaluation - action (qualifier value)"@en ;
+	skos:altLabel "Assessment"@en , "Evaluation"@en , "Patient evaluation - action"@en ;
+	skos:prefLabel "Evaluation - action"@en .
+# 
+# http://snomed.info/id/129267009
+
+:129267009 a owl:Class ;
+	rdfs:subClassOf :129264002 ;
+	rdfs:label "Administrative action (qualifier value)"@en ;
+	skos:prefLabel "Administrative action"@en .
+# 
+# http://snomed.info/id/129271007
+
+:129271007 a owl:Class ;
+	rdfs:subClassOf :129264002 ;
+	rdfs:label "Management - action (qualifier value)"@en ;
+	skos:prefLabel "Management - action"@en .
+# 
+# http://snomed.info/id/129276002
+
+:129276002 a owl:Class ;
+	rdfs:subClassOf :129271007 ;
+	rdfs:label "Referral - action (qualifier value)"@en ;
+	skos:prefLabel "Referral - action"@en .
+# 
+# http://snomed.info/id/129325002
+
+:129325002 a owl:Class ;
+	rdfs:subClassOf :129264002 ;
+	rdfs:label "Introduction - action (qualifier value)"@en ;
+	skos:definition "To put or insert something into the body."@en ;
+	skos:prefLabel "Introduction - action"@en .
+# 
+# http://snomed.info/id/129430004
+
+:129430004 a owl:Class ;
+	rdfs:subClassOf :129267009 ;
+	rdfs:label "Consultation - action (qualifier value)"@en ;
+	skos:prefLabel "Consultation - action"@en .
+# 
+# http://snomed.info/id/129431000
+
+:129431000 a owl:Class ;
+	rdfs:subClassOf :419656003 ;
+	rdfs:label "History taking - action (qualifier value)"@en ;
+	skos:prefLabel "History taking - action"@en .
+# 
+# http://snomed.info/id/129445006
+
+:129445006 a owl:Class ;
+	rdfs:subClassOf :129325002 ;
+	rdfs:label "Administration - action (qualifier value)"@en ;
+	skos:prefLabel "Administration - action"@en .
+# 
+ 
+# http://snomed.info/id/138875005
+
+:138875005 a owl:Class ;
+	rdfs:label "SNOMED CT Concept (SNOMED RT+CTV3)"@en ;
+	skos:altLabel "SNOMED CT has been created by combining SNOMED RT and a computer-based nomenclature and classification known as Read Codes Version 3, which was created on behalf of the U.K. Department of Health."@en , "SNOMED Clinical Terms version: 20190731 [R] (July 2019 Release)"@en , "© 2002-2019 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. \"SNOMED\" and \"SNOMED CT\" are registered trademarks of the IHTSDO."@en-gb ;
+	skos:prefLabel "SNOMED CT Concept"@en .
+# 
+# http://snomed.info/id/14679004
+
+:14679004 a owl:Class ;
+	rdfs:subClassOf :48176007 ;
+	rdfs:label "Occupation (occupation)"@en ;
+	skos:altLabel "Job"@en , "Occupations"@en , "Profession"@en ;
+	skos:prefLabel "Occupation"@en .
+# 
+# http://snomed.info/id/14734007
+
+:14734007 a owl:Class ;
+	rdfs:subClassOf :71388002 ;
+	rdfs:label "Administrative procedure (procedure)"@en ;
+	skos:altLabel "Administrative procedures"@en ;
+	skos:definition "Procedure related to the administrative aspects of health care, including admission, discharge, transfer, disposition, referral, business, legal, financial, quality review, peer review, data reporting, notification, and so forth"@en ;
+	skos:prefLabel "Administrative procedure"@en .
+
+# 
+# http://snomed.info/id/160476009
+
+:160476009 a owl:Class ;
+	rdfs:subClassOf :363787002 ;
+	rdfs:label "Social / personal history observable (observable entity)"@en ;
+	skos:altLabel "PH - Personal history"@en , "Personal and social circumstances"@en , "Personal details"@en , "Personal history"@en , "SH - Social history"@en , "Social and personal circumstances"@en , "Social and personal history"@en , "Social history"@en ;
+	skos:prefLabel "Social / personal history observable"@en .
+# 
+# http://snomed.info/id/169811007
+
+:169811007 a owl:Class ;
+	rdfs:subClassOf :364319003 ;
+	rdfs:label "Birth detail (observable entity)"@en ;
+	skos:altLabel "Birth details"@en ;
+	skos:prefLabel "Birth detail"@en .
+# 
+# http://snomed.info/id/169812000
+
+:169812000 a owl:Class ;
+	rdfs:subClassOf :169811007 ;
+	rdfs:label "Place of birth (observable entity)"@en ;
+	skos:altLabel "Born - place delivered"@en ;
+	skos:prefLabel "Place of birth"@en .
+# 
+# http://snomed.info/id/174255007
+
+:174255007 a owl:Class ;
+	owl:equivalentClass _:genid58 .
+
+_:genid58 owl:intersectionOf _:genid71 .
+
+_:genid71 a rdf:List ;
+	rdf:first :723237002 ;
+	rdf:rest _:genid68 .
+
+_:genid68 a rdf:List ;
+	rdf:first _:genid69 .
+
+_:genid69 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid70 .
+
+_:genid70 a owl:Restriction ;
+	owl:onProperty :370130000 ;
+	owl:someValuesFrom :722243006 .
+
+_:genid68 rdf:rest _:genid65 .
+
+_:genid65 a rdf:List ;
+	rdf:first _:genid66 .
+
+_:genid66 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid67 .
+
+_:genid67 a owl:Restriction ;
+	owl:onProperty :370132008 ;
+	owl:someValuesFrom :30766002 .
+
+_:genid65 rdf:rest _:genid62 .
+
+_:genid62 a rdf:List ;
+	rdf:first _:genid63 .
+
+_:genid63 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid64 .
+
+_:genid64 a owl:Restriction ;
+	owl:onProperty :704319004 ;
+	owl:someValuesFrom :51114001 .
+
+_:genid62 rdf:rest _:genid59 .
+
+_:genid59 a rdf:List ;
+	rdf:first _:genid60 .
+
+_:genid60 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid61 .
+
+_:genid61 a owl:Restriction ;
+	owl:onProperty :704321009 ;
+	owl:someValuesFrom :723229005 .
+
+_:genid59 rdf:rest rdf:nil .
+
+_:genid58 a owl:Class .
+
+:174255007 rdfs:label "Non-invasive diastolic arterial pressure (observable entity)"@en ;
+	skos:altLabel "Non-invasive diastolic blood pressure"@en ;
+	skos:prefLabel "Non-invasive diastolic arterial pressure"@en .
+# 
+# http://snomed.info/id/184099003
+
+:184099003 a owl:Class ;
+	rdfs:subClassOf :302147001 ;
+	rdfs:label "Date of birth (observable entity)"@en ;
+	skos:altLabel "DOB - Date of birth"@en ;
+	skos:prefLabel "Date of birth"@en .
+# 
+# http://snomed.info/id/184100006
+
+:184100006 a owl:Class ;
+	rdfs:subClassOf :302147001 ;
+	rdfs:label "Patient sex (observable entity)"@en ;
+	skos:prefLabel "Patient sex"@en .
+# 
+# http://snomed.info/id/184104002
+
+:184104002 a owl:Class ;
+	rdfs:subClassOf :302147001 ;
+	rdfs:label "Patient occupation (observable entity)"@en ;
+	skos:prefLabel "Patient occupation"@en .
+# 
+# http://snomed.info/id/18629005
+
+:18629005 a owl:Class ;
+	owl:equivalentClass _:genid72 .
+
+_:genid72 owl:intersectionOf _:genid80 .
+
+_:genid80 a rdf:List ;
+	rdf:first :432102000 ;
+	rdf:rest _:genid73 .
+
+_:genid73 a rdf:List ;
+	rdf:first _:genid74 .
+
+_:genid74 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid75 .
+
+_:genid75 owl:intersectionOf _:genid78 .
+
+_:genid78 a rdf:List ;
+	rdf:first _:genid79 .
+
+_:genid79 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129445006 .
+
+_:genid78 rdf:rest _:genid76 .
+
+_:genid76 a rdf:List ;
+	rdf:first _:genid77 .
+
+_:genid77 a owl:Restriction ;
+	owl:onProperty :363701004 ;
+	owl:someValuesFrom :410942007 .
+
+_:genid76 rdf:rest rdf:nil .
+
+_:genid75 a owl:Class .
+
+_:genid73 rdf:rest rdf:nil .
+
+_:genid72 a owl:Class .
+
+:18629005 rdfs:label "Administration of drug or medicament (procedure)"@en ;
+	skos:altLabel "Administration of drug or medicament"@en , "Giving medication"@en , "Medication administration"@en , "Medication administration treatments and procedures"@en , "Medication treatment"@en ;
+	skos:prefLabel "Administration of medication"@en .
+# 
+# http://snomed.info/id/21134002
+
+:21134002 a owl:Class ;
+	owl:equivalentClass _:genid81 .
+
+_:genid81 owl:intersectionOf _:genid89 .
+
+_:genid89 a rdf:List ;
+	rdf:first :105719004 ;
+	rdf:rest _:genid82 .
+
+_:genid82 a rdf:List ;
+	rdf:first _:genid83 .
+
+_:genid83 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid84 .
+
+_:genid84 owl:intersectionOf _:genid87 .
+
+_:genid87 a rdf:List ;
+	rdf:first _:genid88 .
+
+_:genid88 a owl:Restriction ;
+	owl:onProperty :363713009 ;
+	owl:someValuesFrom :260379002 .
+
+_:genid87 rdf:rest _:genid85 .
+
+_:genid85 a rdf:List ;
+	rdf:first _:genid86 .
+
+_:genid86 a owl:Restriction ;
+	owl:onProperty :363714003 ;
+	owl:someValuesFrom :278844005 .
+
+_:genid85 rdf:rest rdf:nil .
+
+_:genid84 a owl:Class .
+
+_:genid82 rdf:rest rdf:nil .
+
+_:genid81 a owl:Class .
+
+:21134002 rdfs:label "Disability (finding)"@en ;
+	skos:prefLabel "Disability"@en .
+# 
+# http://snomed.info/id/21514008
+
+:21514008 a owl:Class ;
+	rdfs:subClassOf _:genid90 .
+
+_:genid90 owl:intersectionOf _:genid92 .
+
+_:genid92 a rdf:List ;
+	rdf:first :63337009 ;
+	rdf:rest _:genid91 .
+
+_:genid91 a rdf:List ;
+	rdf:first :91689009 ;
+	rdf:rest rdf:nil .
+
+_:genid90 a owl:Class .
+
+:21514008 rdfs:label "Structure of genitourinary system (body structure)"@en ;
+	skos:altLabel "Genitourinary system"@en , "Genitourinary tract"@en , "Urogenital structure"@en , "Urogenital system"@en ;
+	skos:prefLabel "Structure of genitourinary system"@en .
+# 
+# http://snomed.info/id/223366009
+
+:223366009 a owl:Class ;
+	rdfs:subClassOf :265930003 ;
+	rdfs:label "Healthcare professional (occupation)"@en ;
+	skos:altLabel "Care personnel"@en , "Health care personnel"@en , "Health profession"@en , "Healthcare worker"@en ;
+	skos:prefLabel "Healthcare professional"@en .
+# 
+# http://snomed.info/id/223369002
+
+:223369002 a owl:Class ;
+	rdfs:subClassOf :223496003 ;
+	rdfs:label "Country (geographic location)"@en ;
+	skos:altLabel "Countries"@en ;
+	skos:prefLabel "Country"@en .
+# 
+# http://snomed.info/id/223496003
+
+:223496003 a owl:Class ;
+	rdfs:subClassOf :308916002 ;
+	rdfs:label "Geographical and/or political region of the world (geographic location)"@en ;
+	skos:altLabel "Geographical and political regions of the world"@en ;
+	skos:prefLabel "Geographical and/or political region of the world"@en .
+# 
+# http://snomed.info/id/224083004
+
+:224083004 a owl:Class ;
+	rdfs:subClassOf :7542004 ;
+	rdfs:label "Marital or partnership status (observable entity)"@en ;
+	skos:prefLabel "Marital or partnership status"@en .
+# 
+# http://snomed.info/id/224285004
+
+:224285004 a owl:Class ;
+	rdfs:subClassOf :160476009 ;
+	rdfs:label "Education and schooling detail (observable entity)"@en ;
+	skos:altLabel "Education and schooling"@en ;
+	skos:prefLabel "Education and schooling detail"@en .
+# 
+# http://snomed.info/id/224804009
+
+:224804009 a owl:Class ;
+	rdfs:subClassOf :288500009 ;
+	rdfs:label "Rural environment (environment)"@en ;
+	skos:altLabel "Country environment"@en ;
+	skos:prefLabel "Rural environment"@en .
+# 
+# http://snomed.info/id/224807002
+
+:224807002 a owl:Class ;
+	rdfs:subClassOf :288500009 ;
+	rdfs:label "Urban environment (environment)"@en ;
+	skos:prefLabel "Urban environment"@en .
+# 
+# http://snomed.info/id/224884006
+
+:224884006 a owl:Class ;
+	rdfs:subClassOf :285201006 ;
+	rdfs:label "Location within hospital premises (environment)"@en ;
+	skos:prefLabel "Location within hospital premises"@en .
+# 
+# http://snomed.info/id/228272008
+
+:228272008 a owl:Class ;
+	rdfs:subClassOf :363896009 ;
+	rdfs:label "Health-related behavior (observable entity)"@en ;
+	skos:prefLabel "Health-related behavior"@en-us , "Health-related behaviour"@en-gb .
+# 
+# http://snomed.info/id/229059009
+
+:229059009 a owl:Class ;
+	rdfs:subClassOf :424545009 ;
+	rdfs:label "Report (record artifact)"@en ;
+	skos:altLabel "Document type"@en , "Document type code"@en ;
+	skos:prefLabel "Report"@en .
+# 
+# http://snomed.info/id/22943007
+
+:22943007 a owl:Class ;
+	rdfs:subClassOf :38866009 ;
+	rdfs:label "Trunk structure (body structure)"@en ;
+	skos:altLabel "Torso"@en , "Trunk"@en ;
+	skos:prefLabel "Trunk structure"@en .
+# 
+# http://snomed.info/id/243796009
+
+:243796009 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Situation with explicit context (situation)"@en ;
+	skos:altLabel "Context-dependent categories"@en , "Context-dependent category"@en ;
+	skos:prefLabel "Situation with explicit context"@en .
+# 
+# http://snomed.info/id/245500007
+
+:245500007 a owl:Class ;
+	rdfs:subClassOf :21514008 ;
+	rdfs:label "Structure of anatomical reproductive system (body structure)"@en ;
+	skos:altLabel "Reproductive anatomical structure"@en ;
+	skos:prefLabel "Structure of anatomical reproductive system"@en .
+# 
+# http://snomed.info/id/246464006
+
+:246464006 a owl:Class ;
+	rdfs:subClassOf :363787002 ;
+	rdfs:label "Function (observable entity)"@en ;
+	skos:definition "Any function or property that is not mainly morphologic or structural, including both measurable and observable features and physiologic actions"@en ;
+	skos:prefLabel "Function"@en .
+# 
+# http://snomed.info/id/248326004
+
+:248326004 a owl:Class ;
+	rdfs:subClassOf :363789004 ;
+	rdfs:label "Body measure (observable entity)"@en ;
+	skos:altLabel "Body measurements"@en ;
+	skos:prefLabel "Body measure"@en .
+# 
+# http://snomed.info/id/250171008
+
+:250171008 a owl:Class ;
+	rdfs:subClassOf :404684003 ;
+	rdfs:label "Clinical history and observation findings (finding)"@en ;
+	skos:altLabel "Clinical history and observations"@en ;
+	skos:prefLabel "Clinical history and observation findings"@en .
+# 
+# http://snomed.info/id/25087005
+
+:25087005 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of nervous system (body structure)"@en ;
+	skos:altLabel "Nervous system"@en , "Nervous system structure"@en ;
+	skos:prefLabel "Structure of nervous system"@en .
+# 
+# http://snomed.info/id/251880004
+
+:251880004 a owl:Class ;
+	rdfs:subClassOf :364062005 ;
+	rdfs:label "Respiratory measure (observable entity)"@en ;
+	skos:altLabel "Observation of measures of respiratory function"@en , "Respiratory measurements"@en ;
+	skos:prefLabel "Respiratory measure"@en .
+# 
+# http://snomed.info/id/252059006
+
+:252059006 a owl:Class ;
+	rdfs:subClassOf _:genid93 .
+
+_:genid93 owl:intersectionOf _:genid95 .
+
+_:genid95 a rdf:List ;
+	rdf:first :310611001 ;
+	rdf:rest _:genid94 .
+
+_:genid94 a rdf:List ;
+	rdf:first :364087003 ;
+	rdf:rest rdf:nil .
+
+_:genid93 a owl:Class .
+
+:252059006 rdfs:label "Vascular measure (observable entity)"@en ;
+	skos:altLabel "Vascular measurements"@en ;
+	skos:prefLabel "Vascular measure"@en .
+# 
+# http://snomed.info/id/25211005
+
+:25211005 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Aunt (person)"@en ;
+	skos:prefLabel "Aunt"@en .
+# 
+# http://snomed.info/id/255544004
+
+:255544004 a owl:Class ;
+	rdfs:subClassOf :288531002 ;
+	rdfs:label "Certainties (qualifier value)"@en ;
+	skos:prefLabel "Certainties"@en .
+# 
+# http://snomed.info/id/260245000
+
+:260245000 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Findings values (qualifier value)"@en ;
+	skos:prefLabel "Findings values"@en .
+# 
+# http://snomed.info/id/260379002
+
+:260379002 a owl:Class ;
+	rdfs:subClassOf :272520006 ;
+	rdfs:label "Impaired (qualifier value)"@en ;
+	skos:prefLabel "Impaired"@en .
+# 
+# http://snomed.info/id/260769002
+
+:260769002 a owl:Class ;
+	rdfs:subClassOf :105590001 ;
+	rdfs:label "Material (substance)"@en ;
+	skos:prefLabel "Material"@en .
+# 
+# http://snomed.info/id/26107004
+
+:26107004 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of musculoskeletal system (body structure)"@en ;
+	skos:altLabel "Locomotor system"@en , "Musculoskeletal structure"@en , "Musculoskeletal system"@en ;
+	skos:prefLabel "Structure of musculoskeletal system"@en .
+# 
+# http://snomed.info/id/263495000
+
+:263495000 a owl:Class ;
+	rdfs:subClassOf :278844005 ;
+	rdfs:label "Gender (observable entity)"@en ;
+	skos:prefLabel "Gender"@en .
+# 
+# http://snomed.info/id/265930003
+
+:265930003 a owl:Class ;
+	rdfs:subClassOf :14679004 ;
+	rdfs:label "Education/welfare/health profession (occupation)"@en ;
+	skos:prefLabel "Education/welfare/health profession"@en .
+# 
+# http://snomed.info/id/27113001
+
+:27113001 a owl:Class ;
+	rdfs:subClassOf :363808001 ;
+	rdfs:label "Body weight (observable entity)"@en ;
+	skos:prefLabel "Body weight"@en .
+# 
+# http://snomed.info/id/271603002
+
+:271603002 a owl:Class ;
+	rdfs:subClassOf :248326004 ;
+	rdfs:label "Height / growth measure (observable entity)"@en ;
+	skos:altLabel "Height AND/OR growth measure"@en ;
+	skos:prefLabel "Height / growth measure"@en .
+# 
+# http://snomed.info/id/272514005
+
+:272514005 a owl:Class ;
+	rdfs:subClassOf :716234001 ;
+	rdfs:label "Respiratory process (qualifier value)"@en ;
+	skos:prefLabel "Respiratory process"@en .
+# 
+# http://snomed.info/id/272520006
+
+:272520006 a owl:Class ;
+	rdfs:subClassOf :260245000 ;
+	rdfs:label "Degree findings (qualifier value)"@en ;
+	skos:prefLabel "Degree findings"@en .
+# 
+# http://snomed.info/id/272625005
+
+:272625005 a owl:Class ;
+	rdfs:subClassOf _:genid96 .
+
+_:genid96 owl:intersectionOf _:genid98 .
+
+_:genid98 a rdf:List ;
+	rdf:first :113343008 ;
+	rdf:rest _:genid97 .
+
+_:genid97 a rdf:List ;
+	rdf:first :362889002 ;
+	rdf:rest rdf:nil .
+
+_:genid96 a owl:Class .
+
+:272625005 rdfs:label "Entire body organ (body structure)"@en ;
+	skos:prefLabel "Entire body organ"@en .
+# 
+# http://snomed.info/id/276339004
+
+:276339004 a owl:Class ;
+	rdfs:label "Environment (environment)"@en ;
+	skos:altLabel "Environments"@en ;
+	skos:prefLabel "Environment"@en .
+# 
+# http://snomed.info/id/27733009
+
+:27733009 a owl:Class ;
+	rdfs:subClassOf :375005 ;
+	rdfs:label "Sister (person)"@en ;
+	skos:altLabel "Sr - Sister"@en ;
+	skos:prefLabel "Sister"@en .
+# 
+# http://snomed.info/id/278195005
+
+:278195005 a owl:Class ;
+	rdfs:subClassOf _:genid99 .
+
+_:genid99 owl:intersectionOf _:genid101 .
+
+_:genid101 a rdf:List ;
+	rdf:first :362889002 ;
+	rdf:rest _:genid100 .
+
+_:genid100 a rdf:List ;
+	rdf:first :91689009 ;
+	rdf:rest rdf:nil .
+
+_:genid99 a owl:Class .
+
+:278195005 rdfs:label "Entire body system (body structure)"@en ;
+	skos:prefLabel "Entire body system"@en .
+# 
+# http://snomed.info/id/278444000
+
+:278444000 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Scales type (qualifier value)"@en ;
+	skos:prefLabel "Scales type"@en .
+# 
+# http://snomed.info/id/278826002
+
+:278826002 a owl:Class ;
+	rdfs:subClassOf :52530000 ;
+	rdfs:label "Body internal region (body structure)"@en ;
+	skos:prefLabel "Body internal region"@en .
+# 
+# http://snomed.info/id/278844005
+
+:278844005 a owl:Class ;
+	rdfs:subClassOf :363787002 ;
+	rdfs:label "General clinical state (observable entity)"@en ;
+	skos:altLabel "General clinical states"@en ;
+	skos:prefLabel "General clinical state"@en .
+# 
+# http://snomed.info/id/284009009
+
+:284009009 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Route of administration value (qualifier value)"@en ;
+	skos:altLabel "Route of administration values"@en ;
+	skos:prefLabel "Route of administration value"@en .
+# 
+# http://snomed.info/id/284548004
+
+:284548004 a owl:Class ;
+	rdfs:subClassOf :224884006 ;
+	rdfs:label "Hospital department (environment)"@en ;
+	skos:prefLabel "Hospital department"@en .
+# 
+# http://snomed.info/id/285201006
+
+:285201006 a owl:Class ;
+	rdfs:subClassOf :276339004 ;
+	rdfs:label "Hospital environment (environment)"@en ;
+	skos:prefLabel "Hospital environment"@en .
+# 
+# http://snomed.info/id/288500009
+
+:288500009 a owl:Class ;
+	rdfs:subClassOf :276339004 ;
+	rdfs:label "Geographical environment (environment)"@en ;
+	skos:prefLabel "Geographical environment"@en .
+# 
+# http://snomed.info/id/288529006
+
+:288529006 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Context values (qualifier value)"@en ;
+	skos:prefLabel "Context values"@en .
+# 
+# http://snomed.info/id/288531002
+
+:288531002 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Finding status values (qualifier value)"@en ;
+	skos:prefLabel "Finding status values"@en .
+# 
+# http://snomed.info/id/2931005
+
+:2931005 a owl:Class ;
+	rdfs:subClassOf :106230009 ;
+	rdfs:label "Probable diagnosis (contextual qualifier) (qualifier value)"@en ;
+	skos:altLabel "Likely"@en , "Presumptive diagnosis"@en , "Probable"@en , "Probable diagnosis (contextual qualifier)"@en , "Probably"@en ;
+	skos:prefLabel "Probable diagnosis"@en .
+# 
+# http://snomed.info/id/302147001
+
+:302147001 a owl:Class ;
+	rdfs:subClassOf :160476009 ;
+	rdfs:label "Demographic history detail (observable entity)"@en ;
+	skos:altLabel "Demographic history"@en ;
+	skos:prefLabel "Demographic history detail"@en .
+
+# 
+# http://snomed.info/id/303071001
+
+:303071001 a owl:Class ;
+	rdfs:subClassOf :125676002 ;
+	rdfs:label "Person in the family (person)"@en ;
+	skos:altLabel "Family member"@en ;
+	skos:prefLabel "Person in the family"@en .
+# 
+# http://snomed.info/id/303118004
+
+:303118004 a owl:Class ;
+	rdfs:subClassOf :125676002 ;
+	rdfs:label "Person in the healthcare environment (person)"@en ;
+	skos:prefLabel "Person in the healthcare environment"@en .
+# 
+# http://snomed.info/id/305072005
+
+:305072005 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of breast and/or endocrine system (body structure)"@en ;
+	skos:altLabel "Breast and endocrine structures"@en , "Breast and/or endocrine structures"@en ;
+	skos:prefLabel "Structure of breast and/or endocrine system"@en .
+# 
+# http://snomed.info/id/306101007
+
+:306101007 a owl:Class ;
+	rdfs:subClassOf :3457005 ;
+	rdfs:label "Referral to establishment (procedure)"@en ;
+	skos:prefLabel "Referral to establishment"@en .
+# 
+# http://snomed.info/id/306685000
+
+:306685000 a owl:Class ;
+	rdfs:subClassOf :58000006 ;
+	rdfs:label "Discharge to establishment (procedure)"@en ;
+	skos:prefLabel "Discharge to establishment"@en .
+# 
+# http://snomed.info/id/307294006
+
+:307294006 a owl:Class ;
+	rdfs:subClassOf :365854008 ;
+	rdfs:label "Personal history finding (finding)"@en ;
+	skos:altLabel "Personal history observations"@en ;
+	skos:prefLabel "Personal history finding"@en .
+# 
+# http://snomed.info/id/30766002
+
+:30766002 a owl:Class ;
+	rdfs:subClassOf _:genid105 .
+
+_:genid105 owl:intersectionOf _:genid107 .
+
+_:genid107 a rdf:List ;
+	rdf:first :106239005 ;
+	rdf:rest _:genid106 .
+
+_:genid106 a rdf:List ;
+	rdf:first :398195001 ;
+	rdf:rest rdf:nil .
+
+_:genid105 a owl:Class .
+
+:30766002 rdfs:label "Quantitative (qualifier value)"@en ;
+	skos:prefLabel "Quantitative"@en .
+# 
+# http://snomed.info/id/308335008
+
+:308335008 a owl:Class ;
+	rdfs:subClassOf :71388002 ;
+	rdfs:label "Patient encounter procedure (procedure)"@en ;
+	skos:prefLabel "Patient encounter procedure"@en .
+# 
+# http://snomed.info/id/308916002
+
+:308916002 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Environment or geographical location (environment / location)"@en ;
+	skos:altLabel "Environments and geographical locations"@en ;
+	skos:prefLabel "Environment or geographical location"@en .
+# 
+# http://snomed.info/id/310611001
+
+:310611001 a owl:Class ;
+	rdfs:subClassOf :364066008 ;
+	rdfs:label "Cardiovascular measure (observable entity)"@en ;
+	skos:altLabel "Cardiovascular measurement"@en , "Cardiovascular measurement - observation"@en ;
+	skos:prefLabel "Cardiovascular measure"@en .
+# 
+# http://snomed.info/id/312419003
+
+:312419003 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of respiratory system and/or intrathoracic structure (body structure)"@en ;
+	skos:altLabel "Respiratory and intrathoracic structures"@en , "Respiratory and/or intrathoracic structure"@en , "Respiratory and/or intrathoracic structures"@en ;
+	skos:prefLabel "Structure of respiratory system and/or intrathoracic structure"@en .
+# 
+# http://snomed.info/id/315354004
+
+:315354004 a owl:Class ;
+	rdfs:subClassOf :302147001 ;
+	rdfs:label "Country of birth (observable entity)"@en ;
+	skos:altLabel "Born in - country"@en ;
+	skos:prefLabel "Country of birth"@en .
+# 
+# http://snomed.info/id/33969000
+
+:33969000 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Great grandparent (person)"@en ;
+	skos:altLabel "Great grand-parent"@en , "Great-grandparent"@en ;
+	skos:prefLabel "Great grandparent"@en .
+# 
+# http://snomed.info/id/3457005
+
+:3457005 a owl:Class ;
+	rdfs:subClassOf _:genid108 .
+
+_:genid108 owl:intersectionOf _:genid112 .
+
+_:genid112 a rdf:List ;
+	rdf:first :363259005 ;
+	rdf:rest _:genid109 .
+
+_:genid109 a rdf:List ;
+	rdf:first _:genid110 .
+
+_:genid110 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid111 .
+
+_:genid111 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129276002 .
+
+_:genid109 rdf:rest rdf:nil .
+
+_:genid108 a owl:Class .
+
+:3457005 rdfs:label "Patient referral (procedure)"@en ;
+	skos:altLabel "Referral"@en , "Referral procedure"@en ;
+	skos:prefLabel "Patient referral"@en .
+# 
+# http://snomed.info/id/34871008
+
+:34871008 a owl:Class ;
+	rdfs:subClassOf :38312007 ;
+	rdfs:label "Grandfather (person)"@en ;
+	skos:altLabel "Grand-father"@en ;
+	skos:prefLabel "Grandfather"@en .
+# 
+# http://snomed.info/id/360037004
+
+:360037004 a owl:Class ;
+	rdfs:subClassOf :129265001 ;
+	rdfs:label "Imaging - action (qualifier value)"@en ;
+	skos:altLabel "Imaging method"@en , "Imaging modality"@en ;
+	skos:prefLabel "Imaging - action"@en .
+# 
+# http://snomed.info/id/361355005
+
+:361355005 a owl:Class ;
+	rdfs:subClassOf :774007 ;
+	rdfs:label "Entire head and neck (body structure)"@en ;
+	skos:prefLabel "Entire head and neck"@en .
+# 
+# http://snomed.info/id/362889002
+
+:362889002 a owl:Class ;
+	rdfs:subClassOf :698967008 ;
+	rdfs:label "Entire anatomical structure (body structure)"@en ;
+	skos:prefLabel "Entire anatomical structure"@en .
+# 
+# http://snomed.info/id/362981000
+
+:362981000 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Qualifier value (qualifier value)"@en ;
+	skos:prefLabel "Qualifier value"@en .
+# 
+# http://snomed.info/id/363259005
+
+:363259005 a owl:Class ;
+	rdfs:subClassOf _:genid113 .
+
+_:genid113 owl:intersectionOf _:genid117 .
+
+_:genid117 a rdf:List ;
+	rdf:first :119270007 ;
+	rdf:rest _:genid114 .
+
+_:genid114 a rdf:List ;
+	rdf:first _:genid115 .
+
+_:genid115 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid116 .
+
+_:genid116 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129271007 .
+
+_:genid114 rdf:rest rdf:nil .
+
+_:genid113 a owl:Class .
+
+:363259005 rdfs:label "Patient management procedure (procedure)"@en ;
+	skos:prefLabel "Patient management procedure"@en .
+# 
+# http://snomed.info/id/363679005
+
+:363679005 a owl:Class ;
+	owl:equivalentClass _:genid118 .
+
+_:genid118 owl:intersectionOf _:genid122 .
+
+_:genid122 a rdf:List ;
+	rdf:first :71388002 ;
+	rdf:rest _:genid119 .
+
+_:genid119 a rdf:List ;
+	rdf:first _:genid120 .
+
+_:genid120 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid121 .
+
+_:genid121 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :360037004 .
+
+_:genid119 rdf:rest rdf:nil .
+
+_:genid118 a owl:Class .
+
+:363679005 rdfs:label "Imaging (procedure)"@en ;
+	skos:altLabel "Clinical imaging"@en ;
+	skos:prefLabel "Imaging"@en .
+# 
+# http://snomed.info/id/363787002
+
+:363787002 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Observable entity (observable entity)"@en ;
+	skos:prefLabel "Observable entity"@en .
+# 
+# http://snomed.info/id/363788007
+
+:363788007 a owl:Class ;
+	rdfs:subClassOf :363787002 ;
+	rdfs:label "Clinical history/examination observable (observable entity)"@en ;
+	skos:prefLabel "Clinical history/examination observable"@en .
+# 
+# http://snomed.info/id/363789004
+
+:363789004 a owl:Class ;
+	rdfs:subClassOf :363788007 ;
+	rdfs:label "General characteristic of patient (observable entity)"@en ;
+	skos:prefLabel "General characteristic of patient"@en .
+# 
+# http://snomed.info/id/363804004
+
+:363804004 a owl:Class ;
+	rdfs:subClassOf :248326004 ;
+	rdfs:label "Body weight characteristic (observable entity)"@en ;
+	skos:prefLabel "Body weight characteristic"@en .
+# 
+# http://snomed.info/id/363808001
+
+:363808001 a owl:Class ;
+	rdfs:subClassOf :363804004 ;
+	rdfs:label "Measured body weight (observable entity)"@en ;
+	skos:altLabel "Measured body weight"@en ;
+	skos:prefLabel "Body weight measure"@en .
+# 
+# http://snomed.info/id/363870007
+
+:363870007 a owl:Class ;
+	rdfs:subClassOf :363788007 ;
+	rdfs:label "Mental state, behavior / psychosocial function observable (observable entity)"@en ;
+	skos:prefLabel "Mental state, behavior / psychosocial function observable"@en-us , "Mental state, behaviour / psychosocial function observable"@en-gb .
+# 
+# http://snomed.info/id/363896009
+
+:363896009 a owl:Class ;
+	rdfs:subClassOf :363870007 ;
+	rdfs:label "Behavior observable (observable entity)"@en ;
+	skos:prefLabel "Behavior observable"@en-us , "Behaviour observable"@en-gb .
+# 
+# http://snomed.info/id/363901006
+
+:363901006 a owl:Class ;
+	rdfs:subClassOf :228272008 ;
+	rdfs:label "Detail of sexuality and sexual activity (observable entity)"@en ;
+	skos:prefLabel "Detail of sexuality and sexual activity"@en .
+# 
+# http://snomed.info/id/364048003
+
+:364048003 a owl:Class ;
+	rdfs:subClassOf :363788007 ;
+	rdfs:label "Respiratory observable (observable entity)"@en ;
+	skos:prefLabel "Respiratory observable"@en .
+# 
+# http://snomed.info/id/364062005
+
+:364062005 a owl:Class ;
+	rdfs:subClassOf :364048003 ;
+	rdfs:label "Respiration observable (observable entity)"@en ;
+	skos:prefLabel "Respiration observable"@en .
+# 
+# http://snomed.info/id/364066008
+
+:364066008 a owl:Class ;
+	rdfs:subClassOf :363788007 ;
+	rdfs:label "Cardiovascular observable (observable entity)"@en ;
+	skos:prefLabel "Cardiovascular observable"@en .
+# 
+# http://snomed.info/id/364087003
+
+:364087003 a owl:Class ;
+	rdfs:subClassOf :364066008 ;
+	rdfs:label "Blood vessel feature (observable entity)"@en ;
+	skos:prefLabel "Blood vessel feature"@en .
+# 
+# http://snomed.info/id/364319003
+
+:364319003 a owl:Class ;
+	rdfs:subClassOf :363788007 ;
+	rdfs:label "Pregnancy, childbirth / puerperium observable (observable entity)"@en ;
+	skos:prefLabel "Pregnancy, childbirth / puerperium observable"@en .
+# 
+# http://snomed.info/id/365448001
+
+:365448001 a owl:Class ;
+	owl:equivalentClass _:genid123 .
+
+_:genid123 owl:intersectionOf _:genid127 .
+
+_:genid127 a rdf:List ;
+	rdf:first :365854008 ;
+	rdf:rest _:genid124 .
+
+_:genid124 a rdf:List ;
+	rdf:first _:genid125 .
+
+_:genid125 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid126 .
+
+_:genid126 a owl:Restriction ;
+	owl:onProperty :363714003 ;
+	owl:someValuesFrom :160476009 .
+
+_:genid124 rdf:rest rdf:nil .
+
+_:genid123 a owl:Class .
+
+:365448001 rdfs:label "Social and personal history finding (finding)"@en ;
+	skos:prefLabel "Social and personal history finding"@en .
+# 
+# http://snomed.info/id/365458002
+
+:365458002 a owl:Class ;
+	owl:equivalentClass _:genid128 .
+
+_:genid128 owl:intersectionOf _:genid132 .
+
+_:genid132 a rdf:List ;
+	rdf:first :365448001 ;
+	rdf:rest _:genid129 .
+
+_:genid129 a rdf:List ;
+	rdf:first _:genid130 .
+
+_:genid130 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid131 .
+
+_:genid131 a owl:Restriction ;
+	owl:onProperty :363714003 ;
+	owl:someValuesFrom :224285004 .
+
+_:genid129 rdf:rest rdf:nil .
+
+_:genid128 a owl:Class .
+
+:365458002 rdfs:label "Education and/or schooling finding (finding)"@en ;
+	skos:prefLabel "Education and/or schooling finding"@en .
+
+# 
+# http://snomed.info/id/365860008
+
+:365860008 a owl:Class ;
+	owl:equivalentClass _:genid138 .
+
+_:genid138 owl:intersectionOf _:genid142 .
+
+_:genid142 a rdf:List ;
+	rdf:first :404684003 ;
+	rdf:rest _:genid139 .
+
+_:genid139 a rdf:List ;
+	rdf:first _:genid140 .
+
+_:genid140 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid141 .
+
+_:genid141 a owl:Restriction ;
+	owl:onProperty :363714003 ;
+	owl:someValuesFrom :278844005 .
+
+_:genid139 rdf:rest rdf:nil .
+
+_:genid138 a owl:Class .
+
+:365860008 rdfs:label "General clinical state finding (finding)"@en ;
+	skos:prefLabel "General clinical state finding"@en .
+# 
+# http://snomed.info/id/36692007
+
+:36692007 a owl:Class ;
+	rdfs:subClassOf :410514004 ;
+	rdfs:label "Known (qualifier value)"@en ;
+	skos:prefLabel "Known"@en .
+# 
+# http://snomed.info/id/371524004
+
+:371524004 a owl:Class ;
+	rdfs:subClassOf :229059009 ;
+	rdfs:label "Clinical report (record artifact)"@en ;
+	skos:prefLabel "Clinical report"@en .
+# 
+# http://snomed.info/id/371525003
+
+:371525003 a owl:Class ;
+	rdfs:subClassOf :423876004 ;
+	rdfs:label "Clinical procedure report (record artifact)"@en ;
+	skos:altLabel "Report of procedure"@en ;
+	skos:prefLabel "Clinical procedure report"@en .
+# 
+# http://snomed.info/id/371531000
+
+:371531000 a owl:Class ;
+	rdfs:subClassOf :423876004 ;
+	rdfs:label "Report of clinical encounter (record artifact)"@en ;
+	skos:altLabel "Report of clinical encounter"@en ;
+	skos:prefLabel "Encounter report"@en .
+# 
+# http://snomed.info/id/371532007
+
+:371532007 a owl:Class ;
+	rdfs:subClassOf :371531000 ;
+	rdfs:label "Progress report (record artifact)"@en ;
+	skos:altLabel "Report of subsequent visit"@en ;
+	skos:prefLabel "Progress report"@en .
+# 
+# http://snomed.info/id/371571005
+
+:371571005 a owl:Class ;
+	owl:equivalentClass _:genid143 .
+
+_:genid143 owl:intersectionOf _:genid151 .
+
+_:genid151 a rdf:List ;
+	rdf:first :363679005 ;
+	rdf:rest _:genid144 .
+
+_:genid144 a rdf:List ;
+	rdf:first _:genid145 .
+
+_:genid145 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid146 .
+
+_:genid146 owl:intersectionOf _:genid149 .
+
+_:genid149 a rdf:List ;
+	rdf:first _:genid150 .
+
+_:genid150 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :360037004 .
+
+_:genid149 rdf:rest _:genid147 .
+
+_:genid147 a rdf:List ;
+	rdf:first _:genid148 .
+
+_:genid148 a owl:Restriction ;
+	owl:onProperty :405813007 ;
+	owl:someValuesFrom :442083009 .
+
+_:genid147 rdf:rest rdf:nil .
+
+_:genid146 a owl:Class .
+
+_:genid144 rdf:rest rdf:nil .
+
+_:genid143 a owl:Class .
+
+:371571005 rdfs:label "Imaging by body site (procedure)"@en ;
+	skos:prefLabel "Imaging by body site"@en .
+# 
+# http://snomed.info/id/372148003
+
+:372148003 a owl:Class ;
+	rdfs:subClassOf :389109008 ;
+	rdfs:label "Ethnic group (ethnic group)"@en ;
+	skos:altLabel "Ethnic category"@en ;
+	skos:prefLabel "Ethnic group"@en .
+# 
+# http://snomed.info/id/373873005
+
+:373873005 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Pharmaceutical / biologic product (product)"@en ;
+	skos:prefLabel "Pharmaceutical / biologic product"@en .
+# 
+# http://snomed.info/id/375005
+
+:375005 a owl:Class ;
+	rdfs:subClassOf :394854006 ;
+	rdfs:label "Sibling (person)"@en ;
+	skos:prefLabel "Sibling"@en .
+# 
+# http://snomed.info/id/38048003
+
+:38048003 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Uncle (person)"@en ;
+	skos:prefLabel "Uncle"@en .
+# 
+# http://snomed.info/id/38312007
+
+:38312007 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Grandparent (person)"@en ;
+	skos:altLabel "Grand-parent"@en ;
+	skos:prefLabel "Grandparent"@en .
+# 
+# http://snomed.info/id/385437003
+
+:385437003 a owl:Class ;
+	rdfs:subClassOf :48176007 ;
+	rdfs:label "Institution (social concept)"@en ;
+	skos:prefLabel "Institution"@en .
+# 
+# http://snomed.info/id/385640009
+
+:385640009 a owl:Class ;
+	rdfs:subClassOf :717844001 ;
+	rdfs:label "Does (qualifier value)"@en ;
+	skos:altLabel "Willing to do"@en ;
+	skos:prefLabel "Does"@en .
+# 
+
+# http://snomed.info/id/38866009
+
+:38866009 a owl:Class ;
+	rdfs:subClassOf :52530000 ;
+	rdfs:label "Body part structure (body structure)"@en ;
+	skos:altLabel "Anatomic part"@en , "Body part"@en ;
+	skos:prefLabel "Body part structure"@en .
+# 
+# http://snomed.info/id/389109008
+
+:389109008 a owl:Class ;
+	rdfs:subClassOf :48176007 ;
+	rdfs:label "Group (social concept)"@en ;
+	skos:prefLabel "Group"@en .
+# 
+# http://snomed.info/id/394658006
+
+:394658006 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Clinical specialty (qualifier value)"@en ;
+	skos:altLabel "Clinical specialties"@en ;
+	skos:prefLabel "Clinical speciality"@en-gb , "Clinical specialty"@en-us .
+# 
+# http://snomed.info/id/394733009
+
+:394733009 a owl:Class ;
+	rdfs:subClassOf :394658006 ;
+	rdfs:label "Medical specialty (qualifier value)"@en ;
+	skos:altLabel "Medical specialties"@en ;
+	skos:prefLabel "Medical speciality"@en-gb , "Medical specialty"@en-us .
+# 
+# http://snomed.info/id/394738000
+
+:394738000 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Other related persons (person)"@en ;
+	skos:prefLabel "Other related persons"@en .
+# 
+# http://snomed.info/id/394854006
+
+:394854006 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Immediate family member (person)"@en ;
+	skos:prefLabel "Immediate family member"@en .
+# 
+# http://snomed.info/id/394856008
+
+:394856008 a owl:Class ;
+	rdfs:subClassOf :34871008 ;
+	rdfs:label "Paternal grandfather (person)"@en ;
+	skos:altLabel "Paternal grand-father"@en ;
+	skos:prefLabel "Paternal grandfather"@en .
+# 
+# http://snomed.info/id/394857004
+
+:394857004 a owl:Class ;
+	rdfs:subClassOf :34871008 ;
+	rdfs:label "Maternal grandfather (person)"@en ;
+	skos:altLabel "Maternal grand-father"@en ;
+	skos:prefLabel "Maternal grandfather"@en .
+# 
+# http://snomed.info/id/394858009
+
+:394858009 a owl:Class ;
+	rdfs:subClassOf :113157001 ;
+	rdfs:label "Paternal grandmother (person)"@en ;
+	skos:altLabel "Paternal grand-mother"@en ;
+	skos:prefLabel "Paternal grandmother"@en .
+# 
+# http://snomed.info/id/394859001
+
+:394859001 a owl:Class ;
+	rdfs:subClassOf :113157001 ;
+	rdfs:label "Maternal grandmother (person)"@en ;
+	skos:altLabel "Maternal grand-mother"@en ;
+	skos:prefLabel "Maternal grandmother"@en .
+# 
+# http://snomed.info/id/398195001
+
+:398195001 a owl:Class ;
+	rdfs:subClassOf :278444000 ;
+	rdfs:label "Measurement scales (qualifier value)"@en ;
+	skos:prefLabel "Measurement scales"@en .
+# 
+# http://snomed.info/id/404684003
+
+:404684003 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Clinical finding (finding)"@en ;
+	skos:prefLabel "Clinical finding"@en .
+# 
+# http://snomed.info/id/40683002
+
+:40683002 a owl:Class ;
+	rdfs:subClassOf :394854006 ;
+	rdfs:label "Parent (person)"@en ;
+	skos:prefLabel "Parent"@en .
+# 
+# http://snomed.info/id/410510008
+
+:410510008 a owl:Class ;
+	rdfs:subClassOf :288529006 ;
+	rdfs:label "Temporal context value (qualifier value)"@en ;
+	skos:prefLabel "Temporal context value"@en .
+# 
+# http://snomed.info/id/410511007
+
+:410511007 a owl:Class ;
+	rdfs:subClassOf :410510008 ;
+	rdfs:label "Current or past (actual) (qualifier value)"@en ;
+	skos:altLabel "Current or past (actual)"@en ;
+	skos:prefLabel "Current or past"@en .
+# 
+# http://snomed.info/id/410514004
+
+:410514004 a owl:Class ;
+	rdfs:subClassOf :288529006 ;
+	rdfs:label "Finding context value (qualifier value)"@en ;
+	skos:prefLabel "Finding context value"@en .
+# 
+# http://snomed.info/id/410515003
+
+:410515003 a owl:Class ;
+	rdfs:subClassOf :36692007 ;
+	rdfs:label "Known present (qualifier value)"@en ;
+	skos:prefLabel "Known present"@en .
+# 
+# http://snomed.info/id/410942007
+
+:410942007 a owl:Class ;
+	rdfs:subClassOf :105590001 ;
+	rdfs:label "Drug or medicament (substance)"@en ;
+	skos:altLabel "Drug"@en ;
+	skos:prefLabel "Drug or medicament"@en .
+# 
+# http://snomed.info/id/413674002
+
+:413674002 a owl:Class ;
+	rdfs:subClassOf _:genid157 .
+
+_:genid157 owl:intersectionOf _:genid159 .
+
+_:genid159 a rdf:List ;
+	rdf:first :260769002 ;
+	rdf:rest _:genid158 .
+
+_:genid158 a rdf:List ;
+	rdf:first :91720002 ;
+	rdf:rest rdf:nil .
+
+_:genid157 a owl:Class .
+
+:413674002 rdfs:label "Body material (substance)"@en ;
+	skos:prefLabel "Body material"@en .
+# 
+# http://snomed.info/id/413675001
+
+:413675001 a owl:Class ;
+	rdfs:subClassOf :413674002 ;
+	rdfs:label "Body tissue material (substance)"@en ;
+	skos:prefLabel "Body tissue material"@en .
+# 
+# http://snomed.info/id/414387006
+
+:414387006 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of hematological system (body structure)"@en ;
+	skos:altLabel "Haematological system"@en-gb , "Haematological system structure"@en-gb , "Hematological system"@en-us , "Hematological system structure"@en-us ;
+	skos:prefLabel "Structure of haematological system"@en-gb , "Structure of hematological system"@en-us .
+# 
+# http://snomed.info/id/415300000
+
+:415300000 a owl:Class ;
+	rdfs:subClassOf :84100007 ;
+	rdfs:label "Review of systems (procedure)"@en ;
+	skos:prefLabel "Review of systems"@en .
+# 
+# http://snomed.info/id/415882003
+
+:415882003 a owl:Class ;
+	owl:equivalentClass _:genid160 .
+
+_:genid160 owl:intersectionOf _:genid173 .
+
+_:genid173 a rdf:List ;
+	rdf:first :363789004 ;
+	rdf:rest _:genid170 .
+
+_:genid170 a rdf:List ;
+	rdf:first _:genid171 .
+
+_:genid171 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid172 .
+
+_:genid172 a owl:Restriction ;
+	owl:onProperty :370130000 ;
+	owl:someValuesFrom :722490005 .
+
+_:genid170 rdf:rest _:genid167 .
+
+_:genid167 a rdf:List ;
+	rdf:first _:genid168 .
+
+_:genid168 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid169 .
+
+_:genid169 a owl:Restriction ;
+	owl:onProperty :370132008 ;
+	owl:someValuesFrom :30766002 .
+
+_:genid167 rdf:rest _:genid164 .
+
+_:genid164 a rdf:List ;
+	rdf:first _:genid165 .
+
+_:genid165 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid166 .
+
+_:genid166 a owl:Restriction ;
+	owl:onProperty :704319004 ;
+	owl:someValuesFrom :278826002 .
+
+_:genid164 rdf:rest _:genid161 .
+
+_:genid161 a rdf:List ;
+	rdf:first _:genid162 .
+
+_:genid162 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid163 .
+
+_:genid163 a owl:Restriction ;
+	owl:onProperty :704327008 ;
+	owl:someValuesFrom :91470000 .
+
+_:genid161 rdf:rest rdf:nil .
+
+_:genid160 a owl:Class .
+
+:415882003 rdfs:label "Core body temperature measured in axillary region (observable entity)"@en ;
+	skos:altLabel "Core body temperature measured in axillary region"@en ;
+	skos:prefLabel "Axillary temperature"@en .
+# 
+# http://snomed.info/id/416471007
+
+:416471007 a owl:Class ;
+	owl:equivalentClass _:genid174 .
+
+_:genid174 owl:intersectionOf _:genid184 .
+
+_:genid184 a rdf:List ;
+	rdf:first :57177007 ;
+	rdf:rest _:genid181 .
+
+_:genid181 a rdf:List ;
+	rdf:first _:genid182 .
+
+_:genid182 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid183 .
+
+_:genid183 a owl:Restriction ;
+	owl:onProperty :408729009 ;
+	owl:someValuesFrom :410515003 .
+
+_:genid181 rdf:rest _:genid178 .
+
+_:genid178 a rdf:List ;
+	rdf:first _:genid179 .
+
+_:genid179 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid180 .
+
+_:genid180 a owl:Restriction ;
+	owl:onProperty :408731000 ;
+	owl:someValuesFrom :410511007 .
+
+_:genid178 rdf:rest _:genid175 .
+
+_:genid175 a rdf:List ;
+	rdf:first _:genid176 .
+
+_:genid176 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid177 .
+
+_:genid177 a owl:Restriction ;
+	owl:onProperty :408732007 ;
+	owl:someValuesFrom :444148008 .
+
+_:genid175 rdf:rest rdf:nil .
+
+_:genid174 a owl:Class .
+
+:416471007 rdfs:label "Family history of clinical finding (situation)"@en ;
+	skos:altLabel "Family medical history"@en ;
+	skos:prefLabel "Family history of clinical finding"@en .
+# 
+# http://snomed.info/id/419656003
+
+:419656003 a owl:Class ;
+	rdfs:subClassOf :129264002 ;
+	rdfs:label "Examination AND/OR history taking - action (qualifier value)"@en ;
+	skos:prefLabel "Examination AND/OR history taking - action"@en .
+# 
+# http://snomed.info/id/419891008
+
+:419891008 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Record artifact (record artifact)"@en ;
+	skos:altLabel "Record element"@en ;
+	skos:prefLabel "Record artefact"@en-gb , "Record artifact"@en-us .
+# 
+# http://snomed.info/id/4201000179104
+
+:4201000179104 a owl:Class ;
+	rdfs:subClassOf :371525003 ;
+	rdfs:label "Imaging report (record artifact)"@en ;
+	skos:prefLabel "Imaging report"@en .
+# 
+# http://snomed.info/id/420473002
+
+:420473002 a owl:Class ;
+	rdfs:subClassOf :22943007 ;
+	rdfs:label "Structure of subregion of trunk (body structure)"@en ;
+	skos:prefLabel "Structure of subregion of trunk"@en .
+# 
+# http://snomed.info/id/420864000
+
+:420864000 a owl:Class ;
+	rdfs:subClassOf :91722005 ;
+	rdfs:label "Group of anatomical entities (body structure)"@en ;
+	skos:prefLabel "Group of anatomical entities"@en .
+# 
+# http://snomed.info/id/422549004
+
+:422549004 a owl:Class ;
+	rdfs:subClassOf :423901009 ;
+	rdfs:label "Patient-related Identification code (observable entity)"@en ;
+	skos:prefLabel "Patient-related Identification code"@en .
+# 
+# http://snomed.info/id/423876004
+
+:423876004 a owl:Class ;
+	rdfs:subClassOf :371524004 ;
+	rdfs:label "Clinical document (record artifact)"@en ;
+	skos:prefLabel "Clinical document"@en .
+# 
+# http://snomed.info/id/423901009
+
+:423901009 a owl:Class ;
+	rdfs:subClassOf :363787002 ;
+	rdfs:label "Identification code (observable entity)"@en ;
+	skos:prefLabel "Identification code"@en .
+# 
+# http://snomed.info/id/423925001
+
+:423925001 a owl:Class ;
+	rdfs:subClassOf :364319003 ;
+	rdfs:label "Family planning observable (observable entity)"@en ;
+	skos:altLabel "Contraception observable"@en ;
+	skos:prefLabel "Family planning observable"@en .
+# 
+# http://snomed.info/id/4241000179101
+
+:4241000179101 a owl:Class ;
+	rdfs:subClassOf :371525003 ;
+	rdfs:label "Laboratory report (record artifact)"@en ;
+	skos:prefLabel "Laboratory report"@en .
+# 
+# http://snomed.info/id/424136002
+
+:424136002 a owl:Class ;
+	rdfs:subClassOf :423925001 ;
+	rdfs:label "Contraceptive use behavior (observable entity)"@en ;
+	skos:prefLabel "Contraceptive use behavior"@en-us , "Contraceptive use behaviour"@en-gb .
+# 
+# http://snomed.info/id/424396007
+
+:424396007 a owl:Class ;
+	rdfs:subClassOf :419891008 ;
+	rdfs:label "Record organizer (record artifact)"@en ;
+	skos:prefLabel "Record organiser"@en-gb , "Record organizer"@en-us .
+# 
+# http://snomed.info/id/424545009
+
+:424545009 a owl:Class ;
+	rdfs:subClassOf :424396007 ;
+	rdfs:label "Record composition (record artifact)"@en ;
+	skos:prefLabel "Record composition"@en .
+# 
+# http://snomed.info/id/432102000
+
+:432102000 a owl:Class ;
+	owl:equivalentClass _:genid185 .
+
+_:genid185 owl:intersectionOf _:genid193 .
+
+_:genid193 a rdf:List ;
+	rdf:first :107733003 ;
+	rdf:rest _:genid186 .
+
+_:genid186 a rdf:List ;
+	rdf:first _:genid187 .
+
+_:genid187 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid188 .
+
+_:genid188 owl:intersectionOf _:genid191 .
+
+_:genid191 a rdf:List ;
+	rdf:first _:genid192 .
+
+_:genid192 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129445006 .
+
+_:genid191 rdf:rest _:genid189 .
+
+_:genid189 a rdf:List ;
+	rdf:first _:genid190 .
+
+_:genid190 a owl:Restriction ;
+	owl:onProperty :363701004 ;
+	owl:someValuesFrom :105590001 .
+
+_:genid189 rdf:rest rdf:nil .
+
+_:genid188 a owl:Class .
+
+_:genid186 rdf:rest rdf:nil .
+
+_:genid185 a owl:Class .
+
+:432102000 rdfs:label "Administration of substance (procedure)"@en ;
+	skos:prefLabel "Administration of substance"@en .
+# 
+# http://snomed.info/id/433590000
+
+:433590000 a owl:Class ;
+	owl:equivalentClass _:genid194 .
+
+_:genid194 owl:intersectionOf _:genid204 .
+
+_:genid204 a rdf:List ;
+	rdf:first :432102000 ;
+	rdf:rest _:genid195 .
+
+_:genid195 a rdf:List ;
+	rdf:first _:genid196 .
+
+_:genid196 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid197 .
+
+_:genid197 owl:intersectionOf _:genid202 .
+
+_:genid202 a rdf:List ;
+	rdf:first _:genid203 .
+
+_:genid203 a owl:Restriction ;
+	owl:onProperty :260686004 ;
+	owl:someValuesFrom :129445006 .
+
+_:genid202 rdf:rest _:genid200 .
+
+_:genid200 a rdf:List ;
+	rdf:first _:genid201 .
+
+_:genid201 a owl:Restriction ;
+	owl:onProperty :363701004 ;
+	owl:someValuesFrom :105590001 .
+
+_:genid200 rdf:rest _:genid198 .
+
+_:genid198 a rdf:List ;
+	rdf:first _:genid199 .
+
+_:genid199 a owl:Restriction ;
+	owl:onProperty :410675002 ;
+	owl:someValuesFrom :284009009 .
+
+_:genid198 rdf:rest rdf:nil .
+
+_:genid197 a owl:Class .
+
+_:genid195 rdf:rest rdf:nil .
+
+_:genid194 a owl:Class .
+
+:433590000 rdfs:label "Administration of substance via specific route (procedure)"@en ;
+	skos:prefLabel "Administration of substance via specific route"@en .
+# 
+# http://snomed.info/id/43741000
+
+:43741000 a owl:Class ;
+	rdfs:subClassOf :276339004 ;
+	rdfs:label "Site of care (environment)"@en ;
+	skos:altLabel "Site of health care"@en , "Treatment site"@en ;
+	skos:prefLabel "Site of care"@en .
+# 
+# http://snomed.info/id/442031000124102
+
+:442031000124102 a owl:Class ;
+	rdfs:subClassOf :38048003 ;
+	rdfs:label "Maternal uncle (person)"@en ;
+	skos:prefLabel "Maternal uncle"@en .
+# 
+# http://snomed.info/id/442041000124107
+
+:442041000124107 a owl:Class ;
+	rdfs:subClassOf :38048003 ;
+	rdfs:label "Paternal uncle (person)"@en ;
+	skos:prefLabel "Paternal uncle"@en .
+# 
+# http://snomed.info/id/442083009
+
+:442083009 a owl:Class ;
+	rdfs:subClassOf :123037004 ;
+	rdfs:label "Anatomical or acquired body structure (body structure)"@en ;
+	skos:prefLabel "Anatomical or acquired body structure"@en .
+# 
+# http://snomed.info/id/442499005
+
+:442499005 a owl:Class ;
+	rdfs:subClassOf :260245000 ;
+	rdfs:label "Interpretation value (qualifier value)"@en ;
+	skos:prefLabel "Interpretation value"@en .
+# 
+# http://snomed.info/id/444018008
+
+:444018008 a owl:Class ;
+	rdfs:subClassOf :125676002 ;
+	rdfs:label "Person with characteristic related to subject of record (person)"@en ;
+	skos:prefLabel "Person with characteristic related to subject of record"@en .
+# 
+# http://snomed.info/id/444148008
+
+:444148008 a owl:Class ;
+	rdfs:subClassOf _:genid205 .
+
+_:genid205 owl:intersectionOf _:genid207 .
+
+_:genid207 a rdf:List ;
+	rdf:first :303071001 ;
+	rdf:rest _:genid206 .
+
+_:genid206 a rdf:List ;
+	rdf:first :444018008 ;
+	rdf:rest rdf:nil .
+
+_:genid205 a owl:Class .
+
+:444148008 rdfs:label "Person in family of subject (person)"@en ;
+	skos:prefLabel "Person in family of subject"@en .
+# 
+# http://snomed.info/id/444242001
+
+:444242001 a owl:Class ;
+	rdfs:subClassOf _:genid208 .
+
+_:genid208 owl:intersectionOf _:genid210 .
+
+_:genid210 a rdf:List ;
+	rdf:first :38312007 ;
+	rdf:rest _:genid209 .
+
+_:genid209 a rdf:List ;
+	rdf:first :444148008 ;
+	rdf:rest rdf:nil .
+
+_:genid208 a owl:Class .
+
+:444242001 rdfs:label "Grandparent of subject (person)"@en ;
+	skos:prefLabel "Grandparent of subject"@en .
+# 
+# http://snomed.info/id/444243006
+
+:444243006 a owl:Class ;
+	rdfs:subClassOf _:genid211 .
+
+_:genid211 owl:intersectionOf _:genid213 .
+
+_:genid213 a rdf:List ;
+	rdf:first :394857004 ;
+	rdf:rest _:genid212 .
+
+_:genid212 a rdf:List ;
+	rdf:first :444242001 ;
+	rdf:rest rdf:nil .
+
+_:genid211 a owl:Class .
+
+:444243006 rdfs:label "Maternal grandfather of subject (person)"@en ;
+	skos:prefLabel "Maternal grandfather of subject"@en .
+# 
+# http://snomed.info/id/444244000
+
+:444244000 a owl:Class ;
+	rdfs:subClassOf _:genid214 .
+
+_:genid214 owl:intersectionOf _:genid216 .
+
+_:genid216 a rdf:List ;
+	rdf:first :394859001 ;
+	rdf:rest _:genid215 .
+
+_:genid215 a rdf:List ;
+	rdf:first :444242001 ;
+	rdf:rest rdf:nil .
+
+_:genid214 a owl:Class .
+
+:444244000 rdfs:label "Maternal grandmother of subject (person)"@en ;
+	skos:prefLabel "Maternal grandmother of subject"@en .
+# 
+# http://snomed.info/id/444292000
+
+:444292000 a owl:Class ;
+	rdfs:subClassOf _:genid217 .
+
+_:genid217 owl:intersectionOf _:genid219 .
+
+_:genid219 a rdf:List ;
+	rdf:first :394856008 ;
+	rdf:rest _:genid218 .
+
+_:genid218 a rdf:List ;
+	rdf:first :444242001 ;
+	rdf:rest rdf:nil .
+
+_:genid217 a owl:Class .
+
+:444292000 rdfs:label "Paternal grandfather of subject (person)"@en ;
+	skos:prefLabel "Paternal grandfather of subject"@en .
+# 
+# http://snomed.info/id/444293005
+
+:444293005 a owl:Class ;
+	rdfs:subClassOf _:genid220 .
+
+_:genid220 owl:intersectionOf _:genid222 .
+
+_:genid222 a rdf:List ;
+	rdf:first :394858009 ;
+	rdf:rest _:genid221 .
+
+_:genid221 a rdf:List ;
+	rdf:first :444242001 ;
+	rdf:rest rdf:nil .
+
+_:genid220 a owl:Class .
+
+:444293005 rdfs:label "Paternal grandmother of subject (person)"@en ;
+	skos:prefLabel "Paternal grandmother of subject"@en .
+# 
+# http://snomed.info/id/444754002
+
+:444754002 a owl:Class ;
+	rdfs:subClassOf :371532007 ;
+	rdfs:label "Hospital inpatient progress report (record artifact)"@en ;
+	skos:prefLabel "Hospital inpatient progress report"@en .
+# 
+# http://snomed.info/id/48075008
+
+:48075008 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of integumentary system (body structure)"@en ;
+	skos:altLabel "Integument"@en , "Integumentary system"@en , "Integumentary system structure"@en ;
+	skos:prefLabel "Structure of integumentary system"@en .
+# 
+# http://snomed.info/id/48176007
+
+:48176007 a owl:Class ;
+	rdfs:subClassOf :138875005 ;
+	rdfs:label "Social context (social concept)"@en ;
+	skos:prefLabel "Social context"@en .
+# 
+# http://snomed.info/id/50261002
+
+:50261002 a owl:Class ;
+	rdfs:subClassOf :33969000 ;
+	rdfs:label "Great grandfather (person)"@en ;
+	skos:altLabel "Great grand-father"@en , "Great-grandfather"@en ;
+	skos:prefLabel "Great grandfather"@en .
+# 
+# http://snomed.info/id/50373000
+
+:50373000 a owl:Class ;
+	rdfs:subClassOf :271603002 ;
+	rdfs:label "Body height measure (observable entity)"@en ;
+	skos:altLabel "Body height"@en ;
+	skos:prefLabel "Body height measure"@en .
+# 
+# http://snomed.info/id/51114001
+
+:51114001 a owl:Class ;
+	rdfs:subClassOf _:genid223 .
+
+_:genid223 owl:intersectionOf _:genid225 .
+
+_:genid225 a rdf:List ;
+	rdf:first :11527006 ;
+	rdf:rest _:genid224 .
+
+_:genid224 a rdf:List ;
+	rdf:first :59820001 ;
+	rdf:rest rdf:nil .
+
+_:genid223 a owl:Class .
+
+:51114001 rdfs:label "Arterial structure (body structure)"@en ;
+	skos:altLabel "Artery"@en ;
+	skos:prefLabel "Arterial structure"@en .
+# 
+# http://snomed.info/id/51833009
+
+:51833009 a owl:Class ;
+	rdfs:subClassOf :51840005 ;
+	rdfs:label "Peripheral vascular system structure (body structure)"@en ;
+	skos:altLabel "Peripheral vascular system"@en ;
+	skos:prefLabel "Peripheral vascular system structure"@en .
+# 
+# http://snomed.info/id/51840005
+
+:51840005 a owl:Class ;
+	rdfs:subClassOf :113257007 ;
+	rdfs:label "Systemic circulatory system structure (body structure)"@en ;
+	skos:altLabel "Greater circulation"@en , "Systemic circulatory system"@en ;
+	skos:prefLabel "Systemic circulatory system structure"@en .
+# 
+# http://snomed.info/id/52530000
+
+:52530000 a owl:Class ;
+	rdfs:subClassOf :91723000 ;
+	rdfs:label "Body region structure (body structure)"@en ;
+	skos:altLabel "Anatomic region"@en , "Body region"@en , "Topographic region"@en ;
+	skos:prefLabel "Body region structure"@en .
+# 
+# http://snomed.info/id/53120007
+
+:53120007 a owl:Class ;
+	rdfs:subClassOf :66019005 ;
+	rdfs:label "Upper limb structure (body structure)"@en ;
+	skos:altLabel "Arm"@en , "Upper extremity"@en , "Upper limb"@en ;
+	skos:definition "Upper extremity, including shoulder, arm, forearm, wrist, and hand"@en ;
+	skos:prefLabel "Upper limb structure"@en .
+# 
+# http://snomed.info/id/53923005
+
+:53923005 a owl:Class ;
+	rdfs:subClassOf :11429006 ;
+	rdfs:label "Medical consultation on inpatient (procedure)"@en ;
+	skos:prefLabel "Medical consultation on inpatient"@en .
+# 
+# http://snomed.info/id/55538000
+
+:55538000 a owl:Class ;
+	rdfs:subClassOf :125677006 ;
+	rdfs:label "Cousin (person)"@en ;
+	skos:prefLabel "Cousin"@en .
+# 
+# http://snomed.info/id/57177007
+
+:57177007 a owl:Class ;
+	owl:equivalentClass _:genid226 .
+
+_:genid226 owl:intersectionOf _:genid233 .
+
+_:genid233 a rdf:List ;
+	rdf:first :243796009 ;
+	rdf:rest _:genid230 .
+
+_:genid230 a rdf:List ;
+	rdf:first _:genid231 .
+
+_:genid231 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid232 .
+
+_:genid232 a owl:Restriction ;
+	owl:onProperty :408731000 ;
+	owl:someValuesFrom :410511007 .
+
+_:genid230 rdf:rest _:genid227 .
+
+_:genid227 a rdf:List ;
+	rdf:first _:genid228 .
+
+_:genid228 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid229 .
+
+_:genid229 a owl:Restriction ;
+	owl:onProperty :408732007 ;
+	owl:someValuesFrom :444148008 .
+
+_:genid227 rdf:rest rdf:nil .
+
+_:genid226 a owl:Class .
+
+:57177007 rdfs:label "Family history with explicit context (situation)"@en ;
+	skos:altLabel "FH"@en , "FH - Family history"@en , "Family history of"@en ;
+	skos:prefLabel "Family history with explicit context"@en .
+# 
+# http://snomed.info/id/57645008
+
+:57645008 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of special senses organ system (body structure)"@en ;
+	skos:altLabel "Special sense organ"@en , "Special senses organ system"@en ;
+	skos:prefLabel "Structure of special senses organ system"@en .
+# 
+# http://snomed.info/id/58000006
+
+:58000006 a owl:Class ;
+	rdfs:subClassOf :14734007 ;
+	rdfs:label "Patient discharge (procedure)"@en ;
+	skos:altLabel "Discharge procedure"@en ;
+	skos:definition "Performance of the steps necessary to discharge a patient from a location of care delivery"@en ;
+	skos:prefLabel "Patient discharge"@en .
+# 
+# http://snomed.info/id/59820001
+
+:59820001 a owl:Class ;
+	rdfs:subClassOf _:genid243 .
+
+_:genid243 owl:intersectionOf _:genid246 .
+
+_:genid246 a rdf:List ;
+	rdf:first :113257007 ;
+	rdf:rest _:genid245 .
+
+_:genid245 a rdf:List ;
+	rdf:first :113343008 ;
+	rdf:rest _:genid244 .
+
+_:genid244 a rdf:List ;
+	rdf:first :87784001 ;
+	rdf:rest rdf:nil .
+
+_:genid243 a owl:Class .
+
+:59820001 rdfs:label "Blood vessel structure (body structure)"@en ;
+	skos:altLabel "Blood vessel"@en , "Vascular structure"@en ;
+	skos:prefLabel "Blood vessel structure"@en .
+# 
+# http://snomed.info/id/60614009
+
+:60614009 a owl:Class ;
+	rdfs:subClassOf _:genid247 .
+
+_:genid247 owl:intersectionOf _:genid249 .
+
+_:genid249 a rdf:List ;
+	rdf:first :70924004 ;
+	rdf:rest _:genid248 .
+
+_:genid248 a rdf:List ;
+	rdf:first :82101005 ;
+	rdf:rest rdf:nil .
+
+_:genid247 a owl:Class .
+
+:60614009 rdfs:label "Natural brother (person)"@en ;
+	skos:altLabel "Biological brother"@en ;
+	skos:prefLabel "Natural brother"@en .
+# 
+# http://snomed.info/id/61746007
+
+:61746007 a owl:Class ;
+	rdfs:subClassOf :5880005 ;
+	rdfs:label "Taking patient vital signs (procedure)"@en ;
+	skos:altLabel "Observation of vital signs"@en , "Observing patient vital signs"@en ;
+	skos:prefLabel "Taking patient vital signs"@en .
+# 
+# http://snomed.info/id/63337009
+
+:63337009 a owl:Class ;
+	rdfs:subClassOf _:genid250 .
+
+_:genid250 owl:intersectionOf _:genid252 .
+
+_:genid252 a rdf:List ;
+	rdf:first :420473002 ;
+	rdf:rest _:genid251 .
+
+_:genid251 a rdf:List ;
+	rdf:first :69548008 ;
+	rdf:rest rdf:nil .
+
+_:genid250 a owl:Class .
+
+:63337009 rdfs:label "Lower trunk structure (body structure)"@en ;
+	skos:altLabel "Lower trunk"@en ;
+	skos:prefLabel "Lower trunk structure"@en .
+# 
+# http://snomed.info/id/66019005
+
+:66019005 a owl:Class ;
+	rdfs:subClassOf :38866009 ;
+	rdfs:label "Limb structure (body structure)"@en ;
+	skos:altLabel "Extremity"@en , "Limb"@en ;
+	skos:prefLabel "Limb structure"@en .
+# 
+# http://snomed.info/id/66621004
+
+:66621004 a owl:Class ;
+	rdfs:subClassOf :363901006 ;
+	rdfs:label "Sexual orientation (observable entity)"@en ;
+	skos:prefLabel "Sexual orientation"@en .
+# 
+# http://snomed.info/id/66839005
+
+:66839005 a owl:Class ;
+	rdfs:subClassOf :40683002 ;
+	rdfs:label "Father (person)"@en ;
+	skos:prefLabel "Father"@en .
+# 
+# http://snomed.info/id/69548008
+
+:69548008 a owl:Class ;
+	rdfs:subClassOf :128263001 ;
+	rdfs:label "Lower body part structure (body structure)"@en ;
+	skos:altLabel "Lower body part"@en ;
+	skos:prefLabel "Lower body part structure"@en .
+# 
+# http://snomed.info/id/698967008
+
+:698967008 a owl:Class ;
+	rdfs:subClassOf :91722005 ;
+	rdfs:label "Material anatomical entity (body structure)"@en ;
+	skos:prefLabel "Material anatomical entity"@en .
+# 
+# http://snomed.info/id/699460007
+
+:699460007 a owl:Class ;
+	rdfs:subClassOf :120574008 ;
+	rdfs:label "Structure of shoulder girdle region (body structure)"@en ;
+	skos:prefLabel "Structure of shoulder girdle region"@en .
+# 
+# http://snomed.info/id/70104002
+
+:70104002 a owl:Class ;
+	rdfs:subClassOf :128262006 ;
+	rdfs:label "Upper body part structure (body structure)"@en ;
+	skos:altLabel "Upper body part"@en ;
+	skos:prefLabel "Upper body part structure"@en .
+# 
+# http://snomed.info/id/70337006
+
+:70337006 a owl:Class ;
+	rdfs:subClassOf :246464006 ;
+	rdfs:label "Cardiovascular function (observable entity)"@en ;
+	skos:prefLabel "Cardiovascular function"@en .
+# 
+# http://snomed.info/id/70924004
+
+:70924004 a owl:Class ;
+	rdfs:subClassOf :375005 ;
+	rdfs:label "Brother (person)"@en ;
+	skos:prefLabel "Brother"@en .
+# 
+# http://snomed.info/id/71388002
+
+:71388002 a owl:Class ;
+	rdfs:label "Procedure (procedure)"@en ;
+	skos:prefLabel "Procedure"@en .
+# 
+ 
+# http://snomed.info/id/716234001
+
+:716234001 a owl:Class ;
+	rdfs:subClassOf :719982003 ;
+	rdfs:label "Physiological process (qualifier value)"@en ;
+	skos:prefLabel "Physiological process"@en .
+# 
+# http://snomed.info/id/717844001
+
+:717844001 a owl:Class ;
+	rdfs:subClassOf :442499005 ;
+	rdfs:label "Volition interpretation (qualifier value)"@en ;
+	skos:altLabel "Willingness interpretation"@en ;
+	skos:prefLabel "Volition interpretation"@en .
+# 
+# http://snomed.info/id/719768009
+
+:719768009 a owl:Class ;
+	rdfs:subClassOf :78652007 ;
+	rdfs:label "Paternal great grandmother (person)"@en ;
+	skos:definition "The grandmother on one's father's side."@en ;
+	skos:prefLabel "Paternal great grandmother"@en .
+# 
+# http://snomed.info/id/719769001
+
+:719769001 a owl:Class ;
+	rdfs:subClassOf :78652007 ;
+	rdfs:label "Maternal great grandmother (person)"@en ;
+	skos:definition "The grandmother on one's mother's side."@en ;
+	skos:prefLabel "Maternal great grandmother"@en .
+# 
+# http://snomed.info/id/719770000
+
+:719770000 a owl:Class ;
+	rdfs:subClassOf :50261002 ;
+	rdfs:label "Paternal great grandfather (person)"@en ;
+	skos:definition "The grandfather on one's father's side."@en ;
+	skos:prefLabel "Paternal great grandfather"@en .
+# 
+# http://snomed.info/id/719771001
+
+:719771001 a owl:Class ;
+	rdfs:subClassOf :50261002 ;
+	rdfs:label "Maternal great grandfather (person)"@en ;
+	skos:definition "The grandfather on one's mother's side."@en ;
+	skos:prefLabel "Maternal great grandfather"@en .
+# 
+# http://snomed.info/id/719982003
+
+:719982003 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Process (qualifier value)"@en ;
+	skos:prefLabel "Process"@en .
+# 
+# http://snomed.info/id/719983008
+
+:719983008 a owl:Class ;
+	rdfs:subClassOf :272514005 ;
+	rdfs:label "Breathing process (qualifier value)"@en ;
+	skos:altLabel "Breathing"@en , "Respiration"@en ;
+	skos:prefLabel "Breathing process"@en .
+# 
+# http://snomed.info/id/719984002
+
+:719984002 a owl:Class ;
+	rdfs:subClassOf :716234001 ;
+	rdfs:label "Cardiac process (qualifier value)"@en ;
+	skos:altLabel "Heart beating"@en , "Heart beating process"@en ;
+	skos:prefLabel "Cardiac process"@en .
+# 
+# http://snomed.info/id/721963009
+
+:721963009 a owl:Class ;
+	rdfs:subClassOf :229059009 ;
+	rdfs:label "Order (record artifact)"@en ;
+	skos:altLabel "Order"@en ;
+	skos:prefLabel "Order document"@en .
+# 
+# http://snomed.info/id/721964003
+
+:721964003 a owl:Class ;
+	rdfs:subClassOf :721963009 ;
+	rdfs:label "Radiology order (record artifact)"@en ;
+	skos:prefLabel "Radiology order"@en .
+# 
+# http://snomed.info/id/721965002
+
+:721965002 a owl:Class ;
+	rdfs:subClassOf :721963009 ;
+	rdfs:label "Laboratory order (record artifact)"@en ;
+	skos:prefLabel "Laboratory order"@en .
+# 
+# http://snomed.info/id/722243006
+
+:722243006 a owl:Class ;
+	rdfs:subClassOf :118598001 ;
+	rdfs:label "Pressure (property) (qualifier value)"@en ;
+	skos:altLabel "Pressure (property)"@en ;
+	skos:prefLabel "Pressure"@en .
+# 
+# http://snomed.info/id/722490005
+
+:722490005 a owl:Class ;
+	rdfs:subClassOf :118598001 ;
+	rdfs:label "Temperature (property) (qualifier value)"@en ;
+	skos:altLabel "Temperature (property)"@en ;
+	skos:prefLabel "Temperature"@en .
+# 
+# http://snomed.info/id/722816006
+
+:722816006 a owl:Class ;
+	rdfs:subClassOf :719983008 ;
+	rdfs:label "Entire ventilation cycle process (qualifier value)"@en ;
+	skos:altLabel "Entire breathing process"@en ;
+	skos:prefLabel "Entire ventilation cycle process"@en .
+# 
+# http://snomed.info/id/72313002
+
+:72313002 a owl:Class ;
+	owl:equivalentClass _:genid258 .
+
+_:genid258 owl:intersectionOf _:genid271 .
+
+_:genid271 a rdf:List ;
+	rdf:first :252059006 ;
+	rdf:rest _:genid268 .
+
+_:genid268 a rdf:List ;
+	rdf:first _:genid269 .
+
+_:genid269 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid270 .
+
+_:genid270 a owl:Restriction ;
+	owl:onProperty :370130000 ;
+	owl:someValuesFrom :722243006 .
+
+_:genid268 rdf:rest _:genid265 .
+
+_:genid265 a rdf:List ;
+	rdf:first _:genid266 .
+
+_:genid266 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid267 .
+
+_:genid267 a owl:Restriction ;
+	owl:onProperty :370132008 ;
+	owl:someValuesFrom :30766002 .
+
+_:genid265 rdf:rest _:genid262 .
+
+_:genid262 a rdf:List ;
+	rdf:first _:genid263 .
+
+_:genid263 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid264 .
+
+_:genid264 a owl:Restriction ;
+	owl:onProperty :704319004 ;
+	owl:someValuesFrom :51114001 .
+
+_:genid262 rdf:rest _:genid259 .
+
+_:genid259 a rdf:List ;
+	rdf:first _:genid260 .
+
+_:genid260 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid261 .
+
+_:genid261 a owl:Restriction ;
+	owl:onProperty :704321009 ;
+	owl:someValuesFrom :723228002 .
+
+_:genid259 rdf:rest rdf:nil .
+
+_:genid258 a owl:Class .
+
+:72313002 rdfs:label "Systolic arterial pressure (observable entity)"@en ;
+	skos:prefLabel "Systolic arterial pressure"@en .
+# 
+# http://snomed.info/id/723227007
+
+:723227007 a owl:Class ;
+	rdfs:subClassOf :719984002 ;
+	rdfs:label "Cardiac cycle process phase (qualifier value)"@en ;
+	skos:altLabel "Cardiac cycle phase"@en ;
+	skos:prefLabel "Cardiac cycle process phase"@en .
+# 
+# http://snomed.info/id/723228002
+
+:723228002 a owl:Class ;
+	rdfs:subClassOf :723227007 ;
+	rdfs:label "Systolic phase (qualifier value)"@en ;
+	skos:altLabel "Systole"@en ;
+	skos:prefLabel "Systolic phase"@en .
+# 
+# http://snomed.info/id/723229005
+
+:723229005 a owl:Class ;
+	rdfs:subClassOf :723227007 ;
+	rdfs:label "Diastolic phase (qualifier value)"@en ;
+	skos:altLabel "Diastole"@en ;
+	skos:prefLabel "Diastolic phase"@en .
+# 
+# http://snomed.info/id/723237002
+
+:723237002 a owl:Class ;
+	rdfs:subClassOf _:genid272 .
+
+_:genid272 owl:intersectionOf _:genid285 .
+
+_:genid285 a rdf:List ;
+	rdf:first :310611001 ;
+	rdf:rest _:genid282 .
+
+_:genid282 a rdf:List ;
+	rdf:first _:genid283 .
+
+_:genid283 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid284 .
+
+_:genid284 a owl:Restriction ;
+	owl:onProperty :370130000 ;
+	owl:someValuesFrom :722243006 .
+
+_:genid282 rdf:rest _:genid279 .
+
+_:genid279 a rdf:List ;
+	rdf:first _:genid280 .
+
+_:genid280 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid281 .
+
+_:genid281 a owl:Restriction ;
+	owl:onProperty :370132008 ;
+	owl:someValuesFrom :30766002 .
+
+_:genid279 rdf:rest _:genid276 .
+
+_:genid276 a rdf:List ;
+	rdf:first _:genid277 .
+
+_:genid277 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid278 .
+
+_:genid278 a owl:Restriction ;
+	owl:onProperty :704319004 ;
+	owl:someValuesFrom :113257007 .
+
+_:genid276 rdf:rest _:genid273 .
+
+_:genid273 a rdf:List ;
+	rdf:first _:genid274 .
+
+_:genid274 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid275 .
+
+_:genid275 a owl:Restriction ;
+	owl:onProperty :704321009 ;
+	owl:someValuesFrom :719984002 .
+
+_:genid273 rdf:rest rdf:nil .
+
+_:genid272 a owl:Class .
+
+:723237002 rdfs:label "Non-invasive blood pressure (observable entity)"@en ;
+	skos:definition "A blood pressure which is observed by a non-invasive procedure, one that does not involve entry into a patient such using as a pressure cuff"@en ;
+	skos:prefLabel "Non-invasive blood pressure"@en .
+# 
+# http://snomed.info/id/72705000
+
+:72705000 a owl:Class ;
+	rdfs:subClassOf :40683002 ;
+	rdfs:label "Mother (person)"@en ;
+	skos:altLabel "Maternal"@en ;
+	skos:prefLabel "Mother"@en .
+# 
+# http://snomed.info/id/736454006
+
+:736454006 a owl:Class ;
+	rdfs:subClassOf :25211005 ;
+	rdfs:label "Maternal aunt (person)"@en ;
+	skos:prefLabel "Maternal aunt"@en .
+# 
+# http://snomed.info/id/736455007
+
+:736455007 a owl:Class ;
+	rdfs:subClassOf :25211005 ;
+	rdfs:label "Paternal aunt (person)"@en ;
+	skos:prefLabel "Paternal aunt"@en .
+# 
+# http://snomed.info/id/736542009
+
+:736542009 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Pharmaceutical dose form (dose form)"@en ;
+	skos:prefLabel "Pharmaceutical dose form"@en .
+# 
+# http://snomed.info/id/73678001
+
+:73678001 a owl:Class ;
+	rdfs:subClassOf _:genid286 .
+
+_:genid286 owl:intersectionOf _:genid288 .
+
+_:genid288 a rdf:List ;
+	rdf:first :27733009 ;
+	rdf:rest _:genid287 .
+
+_:genid287 a rdf:List ;
+	rdf:first :82101005 ;
+	rdf:rest rdf:nil .
+
+_:genid286 a owl:Class .
+
+:73678001 rdfs:label "Natural sister (person)"@en ;
+	skos:altLabel "Biological sister"@en ;
+	skos:prefLabel "Natural sister"@en .
+# 
+# http://snomed.info/id/7542004
+
+:7542004 a owl:Class ;
+	rdfs:subClassOf :160476009 ;
+	rdfs:label "Personal status (observable entity)"@en ;
+	skos:prefLabel "Personal status"@en .
+# 
+# http://snomed.info/id/767524001
+
+:767524001 a owl:Class ;
+	rdfs:subClassOf :362981000 ;
+	rdfs:label "Unit of measure (qualifier value)"@en ;
+	skos:prefLabel "Unit of measure"@en .
+# 
+# http://snomed.info/id/774007
+
+:774007 a owl:Class ;
+	rdfs:subClassOf :70104002 ;
+	rdfs:label "Structure of head and/or neck (body structure)"@en ;
+	skos:altLabel "Head and neck structure"@en ;
+	skos:prefLabel "Structure of head and/or neck"@en .
+# 
+# http://snomed.info/id/78652007
+
+:78652007 a owl:Class ;
+	rdfs:subClassOf :33969000 ;
+	rdfs:label "Great grandmother (person)"@en ;
+	skos:altLabel "Great grand-mother"@en , "Great-grandmother"@en ;
+	skos:prefLabel "Great grandmother"@en .
+# 
+# http://snomed.info/id/82101005
+
+:82101005 a owl:Class ;
+	rdfs:subClassOf :125678001 ;
+	rdfs:label "Natural sibling (person)"@en ;
+	skos:altLabel "Biological sibling"@en ;
+	skos:prefLabel "Natural sibling"@en .
+# 
+# http://snomed.info/id/82832008
+
+:82832008 a owl:Class ;
+	rdfs:subClassOf :118222006 ;
+	rdfs:label "General body state finding (finding)"@en ;
+	skos:altLabel "General well-being"@en ;
+	skos:prefLabel "General body state finding"@en .
+# 
+# http://snomed.info/id/8319008
+
+:8319008 a owl:Class ;
+	rdfs:subClassOf :106229004 ;
+	rdfs:label "Principal diagnosis (contextual qualifier) (qualifier value)"@en ;
+	skos:altLabel "Main diagnosis"@en , "PR - principal diagnosis"@en , "Principal diagnosis (contextual qualifier)"@en ;
+	skos:prefLabel "Principal diagnosis"@en .
+# 
+
+# http://snomed.info/id/8499008
+
+:8499008 a owl:Class ;
+	rdfs:subClassOf :70337006 ;
+	rdfs:label "Pulse, function (observable entity)"@en ;
+	skos:altLabel "Pulse, function"@en ;
+	skos:prefLabel "Pulse"@en .
+# 
+# http://snomed.info/id/85097005
+
+:85097005 a owl:Class ;
+	rdfs:subClassOf :106229004 ;
+	rdfs:label "Secondary diagnosis (contextual qualifier) (qualifier value)"@en ;
+	skos:altLabel "SE"@en , "Secondary diagnosis (contextual qualifier)"@en ;
+	skos:prefLabel "Secondary diagnosis"@en .
+# 
+# http://snomed.info/id/85756007
+
+:85756007 a owl:Class ;
+	rdfs:subClassOf :91723000 ;
+	rdfs:label "Body tissue structure (body structure)"@en ;
+	skos:altLabel "Body tissue"@en , "Tissue"@en ;
+	skos:prefLabel "Body tissue structure"@en .
+# 
+# http://snomed.info/id/86290005
+
+:86290005 a owl:Class ;
+	owl:equivalentClass _:genid294 .
+
+_:genid294 owl:intersectionOf _:genid307 .
+
+_:genid307 a rdf:List ;
+	rdf:first :251880004 ;
+	rdf:rest _:genid304 .
+
+_:genid304 a rdf:List ;
+	rdf:first _:genid305 .
+
+_:genid305 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid306 .
+
+_:genid306 a owl:Restriction ;
+	owl:onProperty :370130000 ;
+	owl:someValuesFrom :118520002 .
+
+_:genid304 rdf:rest _:genid301 .
+
+_:genid301 a rdf:List ;
+	rdf:first _:genid302 .
+
+_:genid302 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid303 .
+
+_:genid303 a owl:Restriction ;
+	owl:onProperty :370132008 ;
+	owl:someValuesFrom :30766002 .
+
+_:genid301 rdf:rest _:genid298 .
+
+_:genid298 a rdf:List ;
+	rdf:first _:genid299 .
+
+_:genid299 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid300 .
+
+_:genid300 a owl:Restriction ;
+	owl:onProperty :704321009 ;
+	owl:someValuesFrom :719983008 .
+
+_:genid298 rdf:rest _:genid295 .
+
+_:genid295 a rdf:List ;
+	rdf:first _:genid296 .
+
+_:genid296 a owl:Restriction ;
+	owl:onProperty :609096000 ;
+	owl:someValuesFrom _:genid297 .
+
+_:genid297 a owl:Restriction ;
+	owl:onProperty :704324001 ;
+	owl:someValuesFrom :722816006 .
+
+_:genid295 rdf:rest rdf:nil .
+
+_:genid294 a owl:Class .
+
+:86290005 rdfs:label "Respiratory rate (observable entity)"@en ;
+	skos:altLabel "BR - Breathing rate"@en , "Breathing rate"@en , "RR - Respiratory rate"@en , "Rate of respiration"@en , "Respiratory frequency"@en ;
+	skos:prefLabel "Respiratory rate"@en .
+# 
+# http://snomed.info/id/86762007
+
+:86762007 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of digestive system (body structure)"@en ;
+	skos:altLabel "Digestive structure"@en , "Digestive system"@en ;
+	skos:prefLabel "Structure of digestive system"@en .
+# 
+# http://snomed.info/id/87784001
+
+:87784001 a owl:Class ;
+	rdfs:subClassOf :85756007 ;
+	rdfs:label "Soft tissues (body structure)"@en ;
+	skos:prefLabel "Soft tissues"@en .
+# 
+# http://snomed.info/id/89890002
+
+:89890002 a owl:Class ;
+	rdfs:subClassOf :91689009 ;
+	rdfs:label "Structure of lymphatic system (body structure)"@en ;
+	skos:altLabel "Lymphatic system"@en , "Lymphatic system structure"@en ;
+	skos:definition "Lymphatic system consists of lymph nodes and lymphatic vessels."@en ;
+	skos:prefLabel "Structure of lymphatic system"@en .
+# 
+# http://snomed.info/id/91470000
+
+:91470000 a owl:Class ;
+	rdfs:subClassOf :699460007 ;
+	rdfs:label "Axillary region structure (body structure)"@en ;
+	skos:altLabel "Axilla"@en , "Axillary region"@en ;
+	skos:prefLabel "Axillary region structure"@en .
+# 
+# http://snomed.info/id/91689009
+
+:91689009 a owl:Class ;
+	rdfs:subClassOf :91723000 ;
+	rdfs:label "Body system structure (body structure)"@en ;
+	skos:altLabel "Organ system"@en ;
+	skos:prefLabel "Body system structure"@en .
+# 
+# http://snomed.info/id/91720002
+
+:91720002 a owl:Class ;
+	rdfs:subClassOf :105590001 ;
+	rdfs:label "Body substance (substance)"@en ;
+	skos:altLabel "Human body substance"@en ;
+	skos:prefLabel "Body substance"@en .
+# 
+# http://snomed.info/id/91722005
+
+:91722005 a owl:Class ;
+	rdfs:subClassOf :91723000 ;
+	rdfs:label "Entire physical anatomical entity (body structure)"@en ;
+	skos:altLabel "Entire physical anatomical entity"@en ;
+	skos:prefLabel "Physical anatomical entity"@en .
+# 
+# http://snomed.info/id/91723000
+
+:91723000 a owl:Class ;
+	rdfs:subClassOf :442083009 ;
+	rdfs:label "Anatomical structure (body structure)"@en ;
+	skos:prefLabel "Anatomical structure"@en .
+# 
+
+
+###  http://snomed.info/id/118240005
+<http://snomed.info/id/118240005> rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/404684003>
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://snomed.info/id/418775008> ;
+                                                                                                    owl:someValuesFrom <http://snomed.info/id/71388002>
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:label "Finding by method (finding)"@en ;
+                                  skos:prefLabel "Finding by method"@en .
+
+
+###  http://snomed.info/id/119376003
+<http://snomed.info/id/119376003> rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/123038009>
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://snomed.info/id/370133003> ;
+                                                                                                    owl:someValuesFrom <http://snomed.info/id/413675001>
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:label "Tissue specimen (specimen)"@en ;
+                                  skos:prefLabel "Tissue specimen"@en .
+
+
+
+###  http://snomed.info/id/125680007
+<http://snomed.info/id/125680007> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ owl:intersectionOf ( <http://snomed.info/id/224083004>
+                                                                         <http://snomed.info/id/302147001>
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] ;
+                                  rdfs:label "Marital status (observable entity)"@en ;
+                                  skos:prefLabel "Marital status"@en .
+
+
+###  http://snomed.info/id/128927009
+<http://snomed.info/id/128927009> rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/71388002>
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                    owl:someValuesFrom <http://snomed.info/id/129264002>
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:label "Procedure by method (procedure)"@en ;
+                                  skos:prefLabel "Procedure by method"@en .
+
+
+
+###  http://snomed.info/id/13197004
+<http://snomed.info/id/13197004> rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/250171008>
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                              owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                          owl:onProperty <http://snomed.info/id/363713009> ;
+                                                                                                                          owl:someValuesFrom <http://snomed.info/id/385640009>
+                                                                                                                        ]
+                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                          owl:onProperty <http://snomed.info/id/363714003> ;
+                                                                                                                          owl:someValuesFrom <http://snomed.info/id/424136002>
+                                                                                                                        ]
+                                                                                                                      ) ;
+                                                                                                   rdf:type owl:Class
+                                                                                                 ]
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:label "Contraception (finding)"@en ;
+                                 skos:altLabel "Birth control"@en ,
+                                               "Family planning"@en ;
+                                 skos:prefLabel "Contraception"@en .
+
+
+###  http://snomed.info/id/15220000
+<http://snomed.info/id/15220000> rdf:type owl:Class ;
+                                 rdfs:subClassOf [ owl:intersectionOf ( <http://snomed.info/id/108252007>
+                                                                        <http://snomed.info/id/386053000>
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
+                                 rdfs:label "Laboratory test (procedure)"@en ;
+                                 skos:prefLabel "Laboratory test"@en .
+
+
+
+###  http://snomed.info/id/302199004
+<http://snomed.info/id/302199004> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ owl:intersectionOf ( <http://snomed.info/id/129265001>
+                                                                         <http://snomed.info/id/419656003>
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] ;
+                                  rdfs:label "Examination - action (qualifier value)"@en ;
+                                  skos:altLabel "Clinical examination - action"@en ,
+                                                "Examination"@en ,
+                                                "Physical examination -action"@en ;
+                                  skos:prefLabel "Examination - action"@en .
+
+
+
+###  http://snomed.info/id/365854008
+<http://snomed.info/id/365854008> rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/118240005>
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://snomed.info/id/418775008> ;
+                                                                                                    owl:someValuesFrom <http://snomed.info/id/84100007>
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:label "History finding (finding)"@en ;
+                                  skos:prefLabel "History finding"@en .
+
+
+###  http://snomed.info/id/386053000
+<http://snomed.info/id/386053000> rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/71388002>
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                    owl:someValuesFrom <http://snomed.info/id/129265001>
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:label "Evaluation procedure (procedure)"@en ;
+                                  skos:altLabel "Assessment"@en ,
+                                                "Clinical evaluation"@en ,
+                                                "Clinical investigation"@en ,
+                                                "Investigations"@en ,
+                                                "Patient evaluation procedure"@en ;
+                                  skos:definition "Determination of a value, conclusion, or inference by evaluating evidence"@en ;
+                                  skos:prefLabel "Evaluation procedure"@en .
+
+
+
+###  http://snomed.info/id/5880005
+<http://snomed.info/id/5880005> rdf:type owl:Class ;
+                                owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/386053000>
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                             owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                                         owl:someValuesFrom <http://snomed.info/id/302199004>
+                                                                                                                       ]
+                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://snomed.info/id/363704007> ;
+                                                                                                                         owl:someValuesFrom <http://snomed.info/id/442083009>
+                                                                                                                       ]
+                                                                                                                     ) ;
+                                                                                                  rdf:type owl:Class
+                                                                                                ]
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ] ;
+                                rdfs:label "Physical examination procedure (procedure)"@en ;
+                                skos:altLabel "Clinical examination"@en ,
+                                              "Examination of patient"@en ,
+                                              "PE - Physical examination"@en ,
+                                              "Physical examination procedure"@en ;
+                                skos:definition "An observation of the body or a body part using one of the five human senses (e.g. inspection, palpation, percussion, auscultation)"@en ;
+                                skos:prefLabel "Physical examination"@en .
+
+
+
+###  http://snomed.info/id/714797009
+<http://snomed.info/id/714797009> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ owl:intersectionOf ( <http://snomed.info/id/15220000>
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                           owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://snomed.info/id/116686009> ;
+                                                                                                owl:someValuesFrom <http://snomed.info/id/119376003>
+                                                                                              ]
+                                                                         ]
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] ;
+                                  rdfs:label "Histologic test (procedure)"@en ;
+                                  skos:altLabel "Histology test"@en ;
+                                  skos:prefLabel "Histologic test"@en .
+
+
+###  http://snomed.info/id/84100007
+<http://snomed.info/id/84100007> rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/128927009>
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                              owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                   owl:someValuesFrom <http://snomed.info/id/129431000>
+                                                                                                 ]
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:label "History taking (procedure)"@en ;
+                                 skos:altLabel "Clinical interview"@en ,
+                                               "History taking, health"@en ,
+                                               "Taking health history"@en ;
+                                 skos:definition "A clinically oriented interview of a patient or someone familiar with the patient"@en ;
+                                 skos:prefLabel "History taking"@en .
+
+###  http://snomed.info/id/11429006
+<http://snomed.info/id/11429006> rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( <http://snomed.info/id/308335008>
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://snomed.info/id/609096000> ;
+                                                                              owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://snomed.info/id/260686004> ;
+                                                                                                   owl:someValuesFrom <http://snomed.info/id/129430004>
+                                                                                                 ]
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:label "Consultation (procedure)"@en ;
+                                 skos:altLabel "Consultation with healthcare provider"@en-us ;
+                                 skos:prefLabel "Consultation"@en .
+###  http://snomed.info/id/108257001
+<http://snomed.info/id/108257001> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/108252007> ;
+                                  rdfs:label "Anatomic pathology procedure (procedure)"@en ;
+                                  skos:prefLabel "Anatomic pathology procedure"@en .
+
+
+###  http://snomed.info/id/116784002
+<http://snomed.info/id/116784002> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ owl:intersectionOf ( <http://snomed.info/id/118661008>
+                                                                         <http://snomed.info/id/308561006>
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] ;
+                                  rdfs:label "Pathologist report (procedure)"@en ;
+                                  skos:prefLabel "Pathologist report"@en .
+
+
+###  http://snomed.info/id/118661008
+<http://snomed.info/id/118661008> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/127777001> ;
+                                  rdfs:label "Physician service (procedure)"@en ;
+                                  skos:definition "Service provided by physician"@en ;
+                                  skos:prefLabel "Physician service"@en .
+
+
+###  http://snomed.info/id/127777001
+<http://snomed.info/id/127777001> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/71388002> ;
+                                  rdfs:label "Provider-specific procedure (procedure)"@en ;
+                                  skos:prefLabel "Provider-specific procedure"@en .
+
+
+
+###  http://snomed.info/id/308561006
+<http://snomed.info/id/308561006> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/14734007> ;
+                                  rdfs:label "Report procedure (procedure)"@en ;
+                                  skos:prefLabel "Report procedure"@en .
+
+
+###  http://snomed.info/id/371530004
+<http://snomed.info/id/371530004> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://snomed.info/id/371531000> ;
+                                  rdfs:label "Clinical consultation report (record artifact)"@en ;
+                                  skos:altLabel "Consultation report"@en ;
+                                  skos:prefLabel "Clinical consultation report"@en .
+
+# Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
